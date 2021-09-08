@@ -6,6 +6,7 @@ using UnityEngine;
 //For questions: mengyuchenmat@gmail.com
 public class ArrowCollisionCheck : MonoBehaviour
 {
+    
     NaviManager naviManager;
     ArrowManager arrowManager;
     FadeManager fadeManager;
@@ -14,10 +15,13 @@ public class ArrowCollisionCheck : MonoBehaviour
     [Header("Debug Options")]
     [Tooltip("For debug purpose.")] 
     [SerializeField] bool debug = false;
+    
+    public Transform PlayerTransform;
 
     private bool controllerConfirm = false;
     private bool controllerTouching = false;
     private bool pinchClicked = false;
+    private bool facingRightDir = false;
     void Start(){
         naviManager = NaviManager.instance;
         arrowManager = ArrowManager.instance;
@@ -38,8 +42,16 @@ public class ArrowCollisionCheck : MonoBehaviour
         {
             controllerConfirm = interactionManager.ControllerConfirm;
         }
-
-        if (controllerTouching && pinchClicked)
+        Quaternion playerRot = PlayerTransform.rotation; 
+        //Debug.Log(PlayerTransform.rotation);
+        if (playerRot.eulerAngles.y < 5 || playerRot.eulerAngles.y > 355)
+        {
+            facingRightDir = true;
+        }
+        else{
+            facingRightDir = false;
+        }
+        if (controllerTouching && pinchClicked && facingRightDir)
         {
             // Debug.Log("arrow collision detected");
             transform.position = new Vector3(0, 100, 0);

@@ -1,5 +1,0 @@
-Participant Name: Tset
-Participant Gender: 1
-Participant ID: 1
-Test Date: 
-Navi Mode: full
