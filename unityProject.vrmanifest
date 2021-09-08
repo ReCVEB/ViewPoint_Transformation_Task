@@ -2,10 +2,10 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.vr_dsp_small_test.exe",
+      "app_key": "application.generated.unity.mapnavigation.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\UnityProjects\\MapNavigation\\actions.json",
+      "action_manifest_path": "C:\\Users\\recve\\ViewPoint_Transformation_Task\\actions.json",
       "strings": {
         "en_us": {
           "name": "MapNavigation [Testing]"

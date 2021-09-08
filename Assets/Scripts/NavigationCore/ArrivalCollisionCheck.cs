@@ -58,6 +58,7 @@ public class ArrivalCollisionCheck : MonoBehaviour {
         {
             return;
         }
+        
         if (controllerTouching && pinchClicked){
             //level start confirmation is required to be able to trigger arrival
             if (triggered == false) {

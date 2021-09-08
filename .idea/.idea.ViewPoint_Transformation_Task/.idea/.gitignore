@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.ViewPoint_Transformation_Task.iml
+# Datasource local storage ignored files
+/../../../../../../../:\Users\recve\ViewPoint_Transformation_Task\.idea\.idea.ViewPoint_Transformation_Task\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

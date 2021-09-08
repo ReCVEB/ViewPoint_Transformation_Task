@@ -13,6 +13,7 @@ TagManager:
   - WarningBoundary
   - Target
   - Map
+  - UserAvatar
   layers:
   - Default
   - TransparentFX

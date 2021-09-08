@@ -10,10 +10,13 @@ public class NaviTutorialManager : MonoBehaviour
     [SerializeField] TextMeshPro InstructionText;
     [SerializeField] GameObject InstructionObject;
     [SerializeField] GameObject Target;
+    [SerializeField] GameObject UserAvatar;
 
     [Header("Multiple Position Setup")]
     [SerializeField] GameObject[] TargetPositions;
 
+    [Header("Perspective Shift Setup")]
+    [SerializeField] GameObject[] UserAvatarRotations;
     [Header("Instruction Texts")]
     [TextArea][SerializeField] string[] GuidingTexts;
 
@@ -33,6 +36,7 @@ public class NaviTutorialManager : MonoBehaviour
 
         //init target position
         Target.transform.position = TargetPositions[phase].transform.position;
+        UserAvatar.transform.rotation = UserAvatarRotations[phase].transform.rotation;
     }
 
     // Update is called once per frame
@@ -48,7 +52,7 @@ public class NaviTutorialManager : MonoBehaviour
         }
         if (!activated)
         {
-            if (phase / 2 == TargetPositions.Length)
+            if (phase / 2  == TargetPositions.Length)
             {
 
                 naviManager.CompleteMaze(true, "Learning Phase");
@@ -70,7 +74,12 @@ public class NaviTutorialManager : MonoBehaviour
                 phase++;
                 InstructionText.text = GuidingTexts[phase / 2 - 1];
                 logManager.WriteCustomInfo("Learning Tutorial: user selects target " + (phase / 2 - 1) + " position");
-                Target.transform.position = TargetPositions[phase / 2].transform.position;
+                if (phase / 2 != TargetPositions.Length)
+                {
+                    Target.transform.position = TargetPositions[phase / 2].transform.position;
+                    UserAvatar.transform.rotation = UserAvatarRotations[phase / 2].transform.rotation;
+                }
+
                 StartCoroutine(Activation(5));
             }
         }

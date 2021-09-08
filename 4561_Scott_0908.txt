@@ -1,0 +1,337 @@
+Participant Name: Scott
+Participant Gender: m
+Participant ID: 4561
+Test Date: 0908
+Navi Mode: testing
+User starts reading map for 0 seconds.
+Trail No.:32 Begins
+26.34: 0,0,0,0
+Distance to Expected Destination: 0.9358973
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.043827
+Trail No.:32 Ends
+User starts reading map for 0 seconds.
+Trail No.:12 Begins
+30.68: 0,0,0,0
+Distance to Expected Destination: 1.593524
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.9118042
+Trail No.:12 Ends
+User starts reading map for 0 seconds.
+Trail No.:19 Begins
+34.84: 0,0,0,0
+35.64: 0,0,0,0
+36.44: 0,0,0,0
+37.24: 0,0,0,0
+Distance to Expected Destination: 2.280719
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 3.39682
+Trail No.:19 Ends
+User starts reading map for 0 seconds.
+Trail No.:23 Begins
+47.36: 0,0,0,0
+48.16: 0,0,0,0
+Distance to Expected Destination: 3.304672
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.623116
+Trail No.:23 Ends
+User starts reading map for 0 seconds.
+Trail No.:36 Begins
+54.94: 0,0,0,0
+Distance to Expected Destination: 1.716246
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.192734
+Trail No.:36 Ends
+User starts reading map for 0 seconds.
+Trail No.:30 Begins
+59.4: 0,0,0,0
+Distance to Expected Destination: 1.604754
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.8780365
+Trail No.:30 Ends
+User starts reading map for 0 seconds.
+Trail No.:43 Begins
+63.54: 0,0,0,0
+64.34: 0,0,0,0
+65.14: 0,0,0,0
+65.93999: 0,0,0,0
+66.74: 0,0,0,0
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 4.207378
+Trail No.:43 Ends
+User starts reading map for 0 seconds.
+Trail No.:42 Begins
+71.02: 0,0,0,0
+71.82: 0,0,0,0
+72.62: 0,0,0,0
+73.42: 0,0,0,0
+74.22: 0,0,0,0
+75.02: 0,0,0,0
+75.82: 0,0,0,0
+76.62: 0,0,0,0
+77.42: 0,0,0,0
+78.22: 0,0,0,0
+79.02: 0,0,0,0
+79.82: 0,0,0,0
+80.62: 0,0,0,0
+81.42: 0,0,0,0
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 11.23218
+Trail No.:42 Ends
+User starts reading map for 0 seconds.
+Trail No.:4 Begins
+85.5: 0,0,0,0
+86.3: 0,0,0,0
+87.1: 0,0,0,0
+87.9: 0,0,0,0
+88.7: 0,0,0,0
+89.5: 0,0,0,0
+90.3: 0,0,0,0
+91.1: 0,0,0,0
+91.9: 0,0,0,0
+92.7: 0,0,0,0
+93.5: 0,0,0,0
+94.3: 0,0,0,0
+95.1: 0,0,0,0
+95.9: 0,0,0,0
+96.7: 0,0,0,0
+Distance to Expected Destination: 1.621129
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 12.65673
+Trail No.:4 Ends
+User starts reading map for 0 seconds.
+Trail No.:28 Begins
+Distance to Expected Destination: 1.930384
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.4803886
+Trail No.:28 Ends
+User starts reading map for 0 seconds.
+Trail No.:9 Begins
+Distance to Expected Destination: 3.078042
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.5301056
+Trail No.:9 Ends
+User starts reading map for 0 seconds.
+Trail No.:48 Begins
+108.96: 0,0,0,0
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.275509
+Trail No.:48 Ends
+User starts reading map for 0 seconds.
+Trail No.:37 Begins
+113.5: 0,0,0,0
+114.3: 0,0,0,0
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 2.004555
+Trail No.:37 Ends
+User starts reading map for 0 seconds.
+Trail No.:22 Begins
+Distance to Expected Destination: 2.045327
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.3311844
+Trail No.:22 Ends
+User starts reading map for 0 seconds.
+Trail No.:14 Begins
+Distance to Expected Destination: 2.29845
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7118111
+Trail No.:14 Ends
+User starts reading map for 0 seconds.
+Trail No.:5 Begins
+126.36: 0,0,0,0
+127.16: 0,0,0,0
+127.96: 0,0,0,0
+Distance to Expected Destination: 2.953612
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 2.783215
+Trail No.:5 Ends
+User starts reading map for 0 seconds.
+Trail No.:3 Begins
+132.4: 0,0,0,0
+133.2: 0,0,0,0
+134: 0,0,0,0
+134.8: 0,0,0,0
+135.6: 0,0,0,0
+136.4: 0,0,0,0
+Distance to Expected Destination: 3.071912
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 5.252899
+Trail No.:3 Ends
+User starts reading map for 0 seconds.
+Trail No.:21 Begins
+Distance to Expected Destination: 3.095705
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.0327301
+Trail No.:21 Ends
+User starts reading map for 0 seconds.
+Trail No.:18 Begins
+Distance to Expected Destination: 2.051239
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7290535
+Trail No.:18 Ends
+User starts reading map for 0 seconds.
+Trail No.:44 Begins
+148.24: 0,0,0,0
+149.04: 0,0,0,0
+Distance to Expected Destination: 1.818418
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.672867
+Trail No.:44 Ends
+User starts reading map for 0 seconds.
+Trail No.:26 Begins
+Distance to Expected Destination: 1.870956
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.4964676
+Trail No.:26 Ends
+User starts reading map for 0 seconds.
+Trail No.:27 Begins
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.579689
+Trail No.:27 Ends
+User starts reading map for 0 seconds.
+Trail No.:24 Begins
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.5138969
+Trail No.:24 Ends
+User starts reading map for 0 seconds.
+Trail No.:8 Begins
+Distance to Expected Destination: 1.956864
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7618942
+Trail No.:8 Ends
+User starts reading map for 0 seconds.
+Trail No.:40 Begins
+168.6: 0,0,0,0
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.1758
+Trail No.:40 Ends
+User starts reading map for 0 seconds.
+Trail No.:47 Begins
+173.04: 0,0,0,0
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.160137
+Trail No.:47 Ends
+User starts reading map for 0 seconds.
+Trail No.:11 Begins
+Distance to Expected Destination: 2.888216
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.5307274
+Trail No.:11 Ends
+User starts reading map for 0 seconds.
+Trail No.:29 Begins
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.662674
+Trail No.:29 Ends
+User starts reading map for 0 seconds.
+Trail No.:17 Begins
+Distance to Expected Destination: 2.708109
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.4964409
+Trail No.:17 Ends
+User starts reading map for 0 seconds.
+Trail No.:10 Begins
+Distance to Expected Destination: 1.909733
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.662674
+Trail No.:10 Ends
+User starts reading map for 0 seconds.
+Trail No.:20 Begins
+192.86: 0,0,0,0
+193.66: 0,0,0,0
+194.46: 0,0,0,0
+195.26: 0,0,0,0
+196.06: 0,0,0,0
+196.86: 0,0,0,0
+197.66: 0,0,0,0
+198.46: 0,0,0,0
+199.26: 0,0,0,0
+200.06: 0,0,0,0
+200.86: 0,0,0,0
+201.66: 0,0,0,0
+202.46: 0,0,0,0
+Distance to Expected Destination: 1.942315
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 10.81804
+Trail No.:20 Ends
+Trail No.:2 Begins
+206.42: 0,0,0,0
+Distance to Expected Destination: 2.043285
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.8620529
+Trail No.:2 Ends
+User starts reading map for 0 seconds.
+Trail No.:16 Begins
+210.54: 0,0,0,0
+211.34: 0,0,0,0
+Distance to Expected Destination: 2.185054
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.640251
+Trail No.:16 Ends
+User starts reading map for 0 seconds.
+Trail No.:13 Begins
+Distance to Expected Destination: 3.034039
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6794891
+Trail No.:13 Ends
+User starts reading map for 0 seconds.
+Trail No.:33 Begins
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6792374
+Trail No.:33 Ends
+User starts reading map for 0 seconds.
+Trail No.:7 Begins
+Distance to Expected Destination: 2.697433
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6956978
+Trail No.:7 Ends
+User starts reading map for 0 seconds.
+Trail No.:41 Begins
+227.34: 0,0,0,0
+Distance to Expected Destination: 2.480467
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.8447495
+Trail No.:41 Ends
+User starts reading map for 0 seconds.
+Trail No.:15 Begins
+231.44: 0,0,0,0
+Distance to Expected Destination: 2.874946
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.457867
+Trail No.:15 Ends
+User starts reading map for 0 seconds.
+Trail No.:38 Begins
+236.16: 0,0,0,0
+236.96: 0,0,0,0
+237.76: 0,0,0,0
+238.56: 0,0,0,0
+239.36: 0,0,0,0
+Distance to Expected Destination: 2.166259
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 4.315105
+Trail No.:38 Ends
+User starts reading map for 0 seconds.
+Trail No.:6 Begins
+Distance to Expected Destination: 1.812158
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.08331299
+Trail No.:6 Ends
+Trail No.:1 Begins
+246.56: 0,0,0,0
+247.36: 0,0,0,0
+248.16: 0,0,0,0
+248.96: 0,0,0,0
+Distance to Expected Destination: 3.023253
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 3.879906
+Trail No.:1 Ends
+User starts reading map for 0 seconds.
+Trail No.:25 Begins
+253.7: 0,0,0,0
+Distance to Expected Destination: 2.937078
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.94487
+Trail No.:25 Ends
+User starts reading map for 0 seconds.
+Trail No.:46 Begins
+257.92: 0,0,0,0
+Distance to Expected Destination: 1.761036
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.241634
+Trail No.:46 Ends
+User starts reading map for 0 seconds.
+Trail No.:45 Begins
+262.44: 0,0,0,0
+Distance to Expected Destination: 3.357461
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.209385
+Trail No.:45 Ends
+User starts reading map for 0 seconds.
+Trail No.:39 Begins
+Distance to Expected Destination: 0.4972964
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7123718
+Trail No.:39 Ends
+User starts reading map for 0 seconds.
+Trail No.:31 Begins
+Distance to Expected Destination: 2.862675
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6132889
+Trail No.:31 Ends
+User starts reading map for 0 seconds.
+Trail No.:34 Begins
+274.76: 0,0,0,0
+Distance to Expected Destination: 1.606901
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.9277344
+Trail No.:34 Ends
+User starts reading map for 0 seconds.
+Trail No.:35 Begins
+278.96: 0,0,0,0
+279.76: 0,0,0,0
+280.56: 0,0,0,0
+Distance to Expected Destination: 3.01178
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 2.783298
+Trail No.:35 Ends

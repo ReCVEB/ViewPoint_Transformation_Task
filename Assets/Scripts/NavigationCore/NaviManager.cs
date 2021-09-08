@@ -23,7 +23,7 @@ public class NaviManager : MonoBehaviour
     [HideInInspector] public bool LevelStartConfirmed = false;
 
     [Header("Random Level Loader")]
-    private int levelcount = 22;
+    private int levelcount = 50;
     private int testPhaseStartingIndex = 2;
     private int nextLevel;
     private bool missionComplete = false;
@@ -53,6 +53,7 @@ public class NaviManager : MonoBehaviour
 
         //the total level count depends on how many starting points
         levelcount = arrowManager.StartingPoints.Length;
+        
     }
 
     // Update is called once per frame
@@ -130,7 +131,7 @@ public class NaviManager : MonoBehaviour
 
         //start confirmation check
 
-        if (CurrentLevel <= 2)
+        if (CurrentLevel <= 4)
         {
             //if in tutorial and learning phase, no need for starting confirmation
             ControlledInit();
@@ -180,7 +181,7 @@ public class NaviManager : MonoBehaviour
     }
     private void GetNextLevel(int min){
         //check if it's done
-        if (candidates.Count == levelcount - min || CurrentMode == NaviMode.learning || CurrentMode == NaviMode.tutorial){
+        if (candidates.Count == levelcount - min || (CurrentMode == NaviMode.learning && CurrentLevel==5) || CurrentMode == NaviMode.tutorial){
             missionComplete = true;
             ResetManagers(); // finishes
             Debug.Log("Mission Complete");
@@ -193,6 +194,12 @@ public class NaviManager : MonoBehaviour
             Debug.Log("Tutorial done. Move to next Learning phase");
             return;
         }
+        
+        //continue on with learning phase
+        // if (CurrentLevel >= 2 && CurrentLevel < 5)
+        // {
+        //     nextLevel = CurrentLevel += 1;
+        // }
         while (candidates.Count != levelcount - min){
             int randNum = UnityEngine.Random.Range(min, levelcount);
             //Debug.Log(randNum + " = generated");
