@@ -4865,3 +4865,39 @@ Learning Tutorial: user selects target -1 position
 22.18: 0,0,0,0
 22.98: 0,0,0,0
 23.78: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: learning
+Trail No.:0 Begins
+6.1: 0,0,0,0
+6.9: 0,0,0,0
+7.7: 0,0,0,0
+8.5: 0,0,0,0
+9.3: 0,0,0,0
+10.1: 0,0,0,0
+10.9: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+11.7: 0,0,0,0
+12.5: 0,0,0,0
+13.3: 0,0,0,0
+14.1: 0,0,0,0
+14.9: 0,0,0,0
+15.7: 0,0,0,0
+16.5: 0,0,0,0
+17.3: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+18.1: 0,0,0,0
+18.9: 0,0,0,0
+19.7: 0,0,0,0
+20.5: 0,0,0,0
+21.3: 0,0,0,0
+22.1: 0,0,0,0
+22.9: 0,0,0,0
+23.7: 0,0,0,0
+Learning Tutorial: user starts reading map for 10 seconds
+24.5: 0,0,0,0
+25.3: 0,0,0,0
+26.1: 0,0,0,0
+26.9: 0,0,0,0
