@@ -131,7 +131,7 @@ public class NaviManager : MonoBehaviour
 
         //start confirmation check
 
-        if (CurrentLevel <= 4)
+        if (CurrentLevel <= 2)
         {
             //if in tutorial and learning phase, no need for starting confirmation
             ControlledInit();
@@ -181,7 +181,7 @@ public class NaviManager : MonoBehaviour
     }
     private void GetNextLevel(int min){
         //check if it's done
-        if (candidates.Count == levelcount - min || (CurrentMode == NaviMode.learning && CurrentLevel==5) || CurrentMode == NaviMode.tutorial){
+        if (candidates.Count == levelcount - min || (CurrentMode == NaviMode.learning) || CurrentMode == NaviMode.tutorial){
             missionComplete = true;
             ResetManagers(); // finishes
             Debug.Log("Mission Complete");

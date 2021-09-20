@@ -1692,7 +1692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MapViewCamera: {fileID: 1781670966}
   Map: {fileID: 400284075}
-  MapReadingTime: 2
+  MapReadingTime: 1
   StaticMap: 1
 --- !u!114 &1016021723
 MonoBehaviour:
