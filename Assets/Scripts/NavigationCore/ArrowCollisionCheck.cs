@@ -42,7 +42,8 @@ public class ArrowCollisionCheck : MonoBehaviour
         {
             controllerConfirm = interactionManager.ControllerConfirm;
         }
-        Quaternion playerRot = PlayerTransform.rotation; 
+        Quaternion playerRot = PlayerTransform.rotation;
+        
         //Debug.Log(PlayerTransform.rotation);
         if (playerRot.eulerAngles.y < 5 || playerRot.eulerAngles.y > 355)
         {
