@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324b30d87d0bcc74a8cfc837ed17a12e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerTransform: {fileID: 0}
   InstructionText: {fileID: 2077355306885344479}
   InstructionObject: {fileID: 1030988375}
   Target: {fileID: 1995645948}
@@ -220,24 +221,17 @@ MonoBehaviour:
   - {fileID: 1172486370}
   - {fileID: 1852122882}
   GuidingTexts:
-  - "The arrow showing your facing direction is not always pointing up, so you need
-    to make sure to think about the location of the target relative to the facing
-    direction that is shown on the screen. Turn and walk to the remembered location
-    of the target relative to your current location and facing direction.\r\n\nClick
-    your trigger to continue.\r\n"
-  - "First, stand on the footprints. Make sure to face the direction the footprints
-    are facing. Then click the trigger to do some practice. For these first two practice
-    trials, the target will be visible to help you better understand the experiment.
-    Note that in the actual experiment, the targets will not be visible. After you
-    select where the target is, look around the find the instruction panel for further
-    instructions. \r\n"
-  - "Great job! During the test, your position will be recorded when you click the
-    trigger, so do your best to reach the target location as closely as possible.
-    Let\u2019s do a few more practice trials. Please go to the footprints and click
-    your trigger. \nAfter you select where the target is, look around the find the
-    instruction panel for further instructions. "
+  - Your position will be recorded when you click the trigger. The position of the
+    headset is recorded, not the position of the controller.
+  - First, stand on the footprints. Make sure to face the direction the footprints
+    are facing. Then click the trigger to do the practice. After you select where
+    the target is, look around to find the panel for further instructions.
+  - "Great job!  \r\n\r\nDo your best to reach the red dot\u2019s location as closely
+    as possible, including the distance from the center. Let\u2019s do a few more
+    practice trials. Please go to the footprints and click the trigger.\r\n"
   - 'For the next three practice trials, the target will be invisible. This is how
-    the test trials will be. Please go to the footprints and click the trigger. '
+    the test trials will be. Please go to the footprints and click the trigger to
+    continue. '
   - Great work! There are 2 more practice trials. Please go to the footprints and
     click the trigger.
   - This is the last practice trial. Please go to the footprints and click the trigger.
@@ -349,7 +343,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-56904
+  m_Name: pb_Mesh20156
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -925,7 +919,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-21846
+  m_Name: pb_Mesh-1670
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1315,7 +1309,7 @@ Transform:
   m_GameObject: {fileID: 1688063185}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 0.026, y: -0.42400002, z: 0.099999905}
-  m_LocalScale: {x: 0.120000355, y: 1, z: 0.23}
+  m_LocalScale: {x: 0.120000355, y: 1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 644059543697456614}
   m_RootOrder: 0
@@ -1863,14 +1857,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "In this experiment, you will see a map of your current position and facing
-    direction on an overhead map. These will be marked with an arrow in the middle
-    of a circle. The circle marks the boundaries of the arena for the experiment.
-    You will also see a target location, marked by a red circle. You will see this
-    map for a few seconds, then you will be in the circular environment. Your task
-    is to walk to where you remember the target was located, then click your trigger.
-    You will not see the arrow or the target, but the circle will still be there.\n\r\nClick
-    your trigger to continue.\r\n"
+  m_text: You will now do some practice trials. For these first two practice trials,
+    the target will be visible to help you better understand the experiment. Note
+    that in the actual experiment, the targets will not be visible.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1939,12 +1928,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2077355306885344479}
-    characterCount: 585
+    characterCount: 216
     spriteCount: 0
-    spaceCount: 111
-    wordCount: 110
+    spaceCount: 36
+    wordCount: 37
     linkCount: 0
-    lineCount: 24
+    lineCount: 8
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0

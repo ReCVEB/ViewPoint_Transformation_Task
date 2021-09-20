@@ -4833,3 +4833,35 @@ Trail No.:36 Ends
 User starts reading map for 1 seconds.
 Trail No.:2 Begins
 286.36: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: learning
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: learning
+Trail No.:0 Begins
+9.38: 0,0,0,0
+10.18: 0,0,0,0
+10.98: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+11.78: 0,0,0,0
+12.58: 0,0,0,0
+13.38: 0,0,0,0
+14.18: 0,0,0,0
+14.98: 0,0,0,0
+15.78: 0,0,0,0
+16.58: 0,0,0,0
+17.38: 0,0,0,0
+18.18: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+18.98: 0,0,0,0
+19.78: 0,0,0,0
+20.58: 0,0,0,0
+21.38: 0,0,0,0
+22.18: 0,0,0,0
+22.98: 0,0,0,0
+23.78: 0,0,0,0
