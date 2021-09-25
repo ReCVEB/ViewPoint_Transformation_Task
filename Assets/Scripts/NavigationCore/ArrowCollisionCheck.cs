@@ -11,12 +11,13 @@ public class ArrowCollisionCheck : MonoBehaviour
     ArrowManager arrowManager;
     FadeManager fadeManager;
     InteractionManager interactionManager;
+    TrackPlayer logManager;
 
     [Header("Debug Options")]
     [Tooltip("For debug purpose.")] 
     [SerializeField] bool debug = false;
     
-    public Transform PlayerTransform;
+    //public Transform PlayerTransform;
 
     private bool controllerConfirm = false;
     private bool controllerTouching = false;
@@ -26,6 +27,7 @@ public class ArrowCollisionCheck : MonoBehaviour
         naviManager = NaviManager.instance;
         arrowManager = ArrowManager.instance;
         fadeManager = FadeManager.instance;
+        logManager = TrackPlayer.instance;
 
         interactionManager = InteractionManager.instance;
         controllerConfirm = interactionManager.ControllerConfirm;
@@ -42,9 +44,9 @@ public class ArrowCollisionCheck : MonoBehaviour
         {
             controllerConfirm = interactionManager.ControllerConfirm;
         }
-        Quaternion playerRot = PlayerTransform.rotation;
-        
-        //Debug.Log(PlayerTransform.rotation);
+        Quaternion playerRot = logManager.PlayerTransform.rotation;
+
+        //Make sure player is facing the right direction
         if (playerRot.eulerAngles.y < 5 || playerRot.eulerAngles.y > 355)
         {
             facingRightDir = true;
@@ -57,7 +59,8 @@ public class ArrowCollisionCheck : MonoBehaviour
             // Debug.Log("arrow collision detected");
             transform.position = new Vector3(0, 100, 0);
             fadeManager.FadeIn();
-            StartCoroutine(Trigger(2.0f));
+            // determines how much time needed to wait after clicking trigger and seeing the map
+            StartCoroutine(Trigger(0.3f));
         }
 
     }

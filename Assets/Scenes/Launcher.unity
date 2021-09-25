@@ -832,8 +832,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400284075}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.4, z: -1}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1.8}
   m_Children:
   - {fileID: 43407768}
   - {fileID: 1974321739}
@@ -1257,7 +1257,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33788
+  m_Name: pb_Mesh32740
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1692,7 +1692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MapViewCamera: {fileID: 1781670966}
   Map: {fileID: 400284075}
-  MapReadingTime: 1
+  MapReadingTime: 2
   StaticMap: 1
 --- !u!114 &1016021723
 MonoBehaviour:
@@ -1707,7 +1707,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debug: 1
-  PlayerTransform: {fileID: 4392687107608143055}
 --- !u!1 &1044593785
 GameObject:
   m_ObjectHideFlags: 0
@@ -3006,7 +3005,7 @@ Transform:
   m_GameObject: {fileID: 1974321738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.01}
-  m_LocalScale: {x: 2.3, y: 2.3, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 400284076}
   m_RootOrder: 1
@@ -15288,7 +15287,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debug: 1
-  PlayerTransform: {fileID: 4392687107608143055}
 --- !u!4 &9104265146415103923
 Transform:
   m_ObjectHideFlags: 0
