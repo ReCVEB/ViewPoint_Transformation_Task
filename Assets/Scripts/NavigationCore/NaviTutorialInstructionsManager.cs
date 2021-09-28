@@ -13,6 +13,7 @@ public class NaviTutorialInstructionsManager : MonoBehaviour
     [SerializeField] GameObject Target;
     [SerializeField] GameObject UserAvatar;
     [SerializeField] GameObject VisibleTarget;
+    public GameObject guidingParticles;
 
     [Header("Multiple Position Setup")]
     [SerializeField] GameObject[] TargetPositions;
@@ -22,8 +23,10 @@ public class NaviTutorialInstructionsManager : MonoBehaviour
 
     [Header("Perspective Shift Setup")]
     [SerializeField] GameObject[] UserAvatarRotations;
+
     
-    
+
+
     [Header("Instruction Texts")]
     [TextArea][SerializeField] string[] GuidingTexts;
 
@@ -64,6 +67,8 @@ public class NaviTutorialInstructionsManager : MonoBehaviour
         if (!activated)
         {
             VisibleTarget.transform.position = VisibleTargetPositions[2].transform.position;
+
+            // Learning is over
             if (phase > 11)
             {
                 naviManager.CompleteMaze(true, "Learning Phase");
@@ -74,44 +79,64 @@ public class NaviTutorialInstructionsManager : MonoBehaviour
             // show the map every other phase besides the first two phases, which will be instruction text
             else if (phase != 0 && phase % 2 == 0)
             {
-                InstructionObject.SetActive(false);
-                mapManager.RevealMap(8);
-                logManager.WriteCustomInfo("Learning Tutorial: user starts reading map for 10 seconds");
-                if (phase == 2)
-                {
-                    VisibleTarget.transform.position = VisibleTargetPositions[0].transform.position;
-                }
+                if((logManager.PlayerTransform.position.x < guidingParticles.transform.position.x + 0.6 &&
+                        logManager.PlayerTransform.position.x > guidingParticles.transform.position.x - 0.6) &&
+                        (logManager.PlayerTransform.position.z < guidingParticles.transform.position.z + 0.6 &&
+                        logManager.PlayerTransform.position.z > guidingParticles.transform.position.z - 0.6)){
+                    InstructionObject.SetActive(false);
+                    guidingParticles.SetActive(false);
+                    // only reveal map for 2 seconds for last 2 practice trials 
+                    if (phase > 6)
+                    {
+                        mapManager.RevealMap(2);
+                    }
+                    else
+                    {
+                        mapManager.RevealMap(4);
+                    }
 
-                else if (phase == 4)
-                {
-                    VisibleTarget.transform.position = VisibleTargetPositions[1].transform.position;
+                    logManager.WriteCustomInfo("Learning Tutorial: user starts reading map for 10 seconds");
 
+                    // the first two practice trials will have the targets be visible
+                    if (phase == 2)
+                    {
+                        VisibleTarget.transform.position = VisibleTargetPositions[0].transform.position;
+                    }
+
+                    else if (phase == 4)
+                    {
+                        VisibleTarget.transform.position = VisibleTargetPositions[1].transform.position;
+
+                    }
+                    phase++;
+                    StartCoroutine(Activation(1));
                 }
-                phase++;
-                StartCoroutine(Activation(9));
             }
             else
             {
-
-                if (phase == 3)
+                guidingParticles.SetActive(true);
+                // practice phase 1
+                if (phase == 3 && !moveOn)
                 {
                     //make sure the participant cannot move on unless they are at the target 
-                    if ((logManager.PlayerTransform.position.x < VisibleTargetPositions[0].transform.position.x + 0.5 &&
-                         logManager.PlayerTransform.position.x > VisibleTargetPositions[0].transform.position.x - 0.5) &&
-                        (logManager.PlayerTransform.position.z < VisibleTargetPositions[0].transform.position.z + 0.5 &&
-                         logManager.PlayerTransform.position.z > VisibleTargetPositions[0].transform.position.z - 0.5))
+                    if ((logManager.PlayerTransform.position.x < VisibleTargetPositions[0].transform.position.x + 0.4 &&
+                         logManager.PlayerTransform.position.x > VisibleTargetPositions[0].transform.position.x - 0.4) &&
+                        (logManager.PlayerTransform.position.z < VisibleTargetPositions[0].transform.position.z + 0.4 &&
+                         logManager.PlayerTransform.position.z > VisibleTargetPositions[0].transform.position.z - 0.4))
                     {
                         moveOn = true;
                     }
 
                     VisibleTarget.transform.position = VisibleTargetPositions[0].transform.position;
                 }
-                else if (phase == 5)
+                
+                // practice phase 2
+                else if (phase == 5 && !moveOn)
                 {
-                    if ((logManager.PlayerTransform.position.x < VisibleTargetPositions[1].transform.position.x + 0.5 &&
-                         logManager.PlayerTransform.position.x > VisibleTargetPositions[1].transform.position.x - 0.5) &&
-                        (logManager.PlayerTransform.position.z < VisibleTargetPositions[1].transform.position.z + 0.5 &&
-                         logManager.PlayerTransform.position.z > VisibleTargetPositions[1].transform.position.z - 0.5))
+                    if ((logManager.PlayerTransform.position.x < VisibleTargetPositions[1].transform.position.x + 0.4 &&
+                         logManager.PlayerTransform.position.x > VisibleTargetPositions[1].transform.position.x - 0.4) &&
+                        (logManager.PlayerTransform.position.z < VisibleTargetPositions[1].transform.position.z + 0.4 &&
+                         logManager.PlayerTransform.position.z > VisibleTargetPositions[1].transform.position.z - 0.4 ))
                     {
                         moveOn = true;
                     }
@@ -128,7 +153,7 @@ public class NaviTutorialInstructionsManager : MonoBehaviour
                     VisibleTarget.transform.position = VisibleTargetPositions[2].transform.position;
                     InstructionObject.SetActive(true);
                     InstructionText.text = GuidingTexts[textInstrCounter];
-                    textInstrCounter++;
+                    
 
                     logManager.WriteCustomInfo(
                         "Learning Tutorial: user selects target " + (phase / 2 - 1) + " position");
@@ -138,6 +163,12 @@ public class NaviTutorialInstructionsManager : MonoBehaviour
                         UserAvatar.transform.rotation = UserAvatarRotations[targetPosCounter].transform.rotation;
                     }
 
+                    // make sure participant is on the footprints
+                    // if (((logManager.PlayerTransform.position.x < guidingParticles.transform.position.x + 0.6 &&
+                    //     logManager.PlayerTransform.position.x > guidingParticles.transform.position.x - 0.6) &&
+                    //     (logManager.PlayerTransform.position.z < guidingParticles.transform.position.z + 0.6 &&
+                    //     logManager.PlayerTransform.position.z > guidingParticles.transform.position.z - 0.6)) || phase < 2){
+                    textInstrCounter++;
                     phase++;
                     moveOn = false;
 
@@ -145,8 +176,8 @@ public class NaviTutorialInstructionsManager : MonoBehaviour
                     {
                         targetPosCounter++;
                     }
-
-                    StartCoroutine(Activation(5));
+                    StartCoroutine(Activation(1));
+                    //}
                 }
             }
         }
