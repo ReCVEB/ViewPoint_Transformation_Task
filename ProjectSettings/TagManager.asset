@@ -27,7 +27,7 @@ TagManager:
   - RenderMap
   - RenderVR
   - RenderBoth
-  - 
+  - RenderAfter2Seconds
   - 
   - 
   - 

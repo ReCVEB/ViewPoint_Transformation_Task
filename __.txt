@@ -13757,3 +13757,1220 @@ Participant Gender:
 Participant ID: 
 Test Date: 
 Navi Mode: tutorial
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: full
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: learning
+Trail No.:0 Begins
+9.139999: 0,0,0,0
+9.94: 0,0,0,0
+10.74: 0,0,0,0
+11.54: 0,0,0,0
+12.34: 0,0,0,0
+13.14: 0,0,0,0
+13.94: 0,0,0,0
+14.74: 0,0,0,0
+15.54: 0,0,0,0
+16.34: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: full
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: full
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: full
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:13 Begins
+11.02: 0,0,0,0
+11.82: 0,0,0,0
+12.62: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 20 seconds.
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 20 seconds.
+Trail No.:21 Begins
+26.02: 0,0,0,0
+26.82: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 20 seconds.
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: learning
+Trail No.:0 Begins
+4.94: 0,0,0,0
+5.74: 0,0,0,0
+6.54: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+7.34: 0,0,0,0
+8.139999: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+8.94: 0,0,0,0
+Learning Tutorial: user starts reading map for 10 seconds
+9.74: 0,0,0,0
+10.54: 0,0,0,0
+11.34: 0,0,0,0
+12.14: 0,0,0,0
+12.94: 0,0,0,0
+13.74: 0,0,0,0
+14.54: 0,0,0,0
+15.34: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 20 seconds.
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:3 Begins
+8.42: 0,0,0,0
+9.22: 0,0,0,0
+10.02: 0,0,0,0
+10.82: 0,0,0,0
+11.62: 0,0,0,0
+12.42: 0,0,0,0
+13.22: 0,0,0,0
+14.02: 0,0,0,0
+14.82: 0,0,0,0
+15.62: 0,0,0,0
+16.42: 0,0,0,0
+17.22: 0,0,0,0
+18.02: 0,0,0,0
+18.82: 0,0,0,0
+19.62: 0,0,0,0
+20.42: 0,0,0,0
+21.22: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: learning
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:29 Begins
+10.42: 0,0,0,0
+11.22: 0,0,0,0
+12.02: 0,0,0,0
+12.82: 0,0,0,0
+13.62: 0,0,0,0
+14.42: 0,0,0,0
+15.22: 0,0,0,0
+16.02: 0,0,0,0
+16.82: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:48 Begins
+8.76: 0,0,0,0
+9.559999: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:27 Begins
+6.36: 0,0,0,0
+Distance to Expected Destination: 1.65
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.341904
+Trail No.:27 Ends
+User starts reading map for 2 seconds.
+Trail No.:40 Begins
+10.72: 0,0,0,0
+Distance to Expected Destination: 1.65
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.225948
+Trail No.:40 Ends
+User starts reading map for 2 seconds.
+Trail No.:34 Begins
+14.96: 0,0,0,0
+15.76: 0,0,0,0
+16.56: 0,0,0,0
+17.36: 0,0,0,0
+18.16: 0,0,0,0
+18.96: 0,0,0,0
+19.76: 0,0,0,0
+20.56: 0,0,0,0
+Distance to Expected Destination: 1.520692
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 6.477398
+Trail No.:34 Ends
+User starts reading map for 2 seconds.
+Trail No.:10 Begins
+24.46: 0,0,0,0
+Distance to Expected Destination: 1.520692
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.225937
+Trail No.:10 Ends
+User starts reading map for 2 seconds.
+Trail No.:20 Begins
+28.68: 0,0,0,0
+Distance to Expected Destination: 1.520691
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.960865
+Trail No.:20 Ends
+User starts reading map for 2 seconds.
+Trail No.:19 Begins
+Distance to Expected Destination: 2.611992
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6468239
+Trail No.:19 Ends
+User starts reading map for 2 seconds.
+Trail No.:38 Begins
+36.3: 0,0,0,0
+Distance to Expected Destination: 1.916377
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.8941231
+Trail No.:38 Ends
+User starts reading map for 2 seconds.
+Trail No.:23 Begins
+Distance to Expected Destination: 3.010399
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6963463
+Trail No.:23 Ends
+User starts reading map for 2 seconds.
+Trail No.:22 Begins
+43.9: 0,0,0,0
+Distance to Expected Destination: 1.718284
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.026741
+Trail No.:22 Ends
+User starts reading map for 2 seconds.
+Trail No.:2 Begins
+47.92: 0,0,0,0
+48.72: 0,0,0,0
+49.52: 0,0,0,0
+50.32: 0,0,0,0
+51.12: 0,0,0,0
+51.92: 0,0,0,0
+52.72: 0,0,0,0
+53.52: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:7 Begins
+10.84: 0,0,0,0
+11.64: 0,0,0,0
+12.44: 0,0,0,0
+13.24: 0,0,0,0
+14.04: 0,0,0,0
+14.84: 0,0,0,0
+15.64: 0,0,0,0
+16.44: 0,0,0,0
+17.24: 0,0,0,0
+18.04: 0,0,0,0
+18.84: 0,0,0,0
+19.64: 0,0,0,0
+20.44: 0,0,0,0
+21.24: 0,0,0,0
+22.04: 0,0,0,0
+22.84: 0,0,0,0
+23.64: 0,0,0,0
+24.44: 0,0,0,0
+25.24: 0,0,0,0
+26.04: 0,0,0,0
+26.84: 0,0,0,0
+27.64: 0,0,0,0
+28.44: 0,0,0,0
+29.24: 0,0,0,0
+30.04: 0,0,0,0
+30.84: 0,0,0,0
+31.64: 0,0,0,0
+32.44: 0,0,0,0
+33.24: 0,0,0,0
+34.04: 0,0,0,0
+34.84: 0,0,0,0
+35.64: 0,0,0,0
+36.44: 0,0,0,0
+37.24: 0,0,0,0
+38.04: 0,0,0,0
+38.84: 0,0,0,0
+39.64: 0,0,0,0
+40.44: 0,0,0,0
+41.24: 0,0,0,0
+42.04: 0,0,0,0
+42.84: 0,0,0,0
+43.64: 0,0,0,0
+44.44: 0,0,0,0
+45.24: 0,0,0,0
+46.04: 0,0,0,0
+46.84: 0,0,0,0
+47.64: 0,0,0,0
+48.44: 0,0,0,0
+49.24: 0,0,0,0
+50.04: 0,0,0,0
+50.84: 0,0,0,0
+51.64: 0,0,0,0
+52.44: 0,0,0,0
+53.24: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: learning
+Trail No.:0 Begins
+6.64: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+7.44: 0,0,0,0
+8.24: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+9.04: 0,0,0,0
+9.84: 0,0,0,0
+Learning Tutorial: user starts reading map for 10 seconds
+10.64: 0,0,0,0
+11.44: 0,0,0,0
+12.24: 0,0,0,0
+13.04: 0,0,0,0
+13.84: 0,0,0,0
+14.64: 0,0,0,0
+15.44: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: full
+Trail No.:-1 Begins
+19.84444: 0.03663513,-0.001547122,1.633155,359.051
+20.28889: 0.02835329,-0.004356034,1.63123,356.6818
+20.73333: 0.02179444,-0.06336281,1.633601,334.4508
+21.17778: 0.05582068,-0.1875518,1.623394,3.003072
+21.62222: -0.03787532,-0.4243075,1.619478,5.831061
+22.06667: 0.02120617,-0.625953,1.622419,359.1886
+22.51111: 0.08318622,-0.7678466,1.622984,0.2023338
+22.95556: 0.04338714,-0.8008062,1.630327,2.601372
+23.4: 0.0286698,-0.7905322,1.630162,2.572074
+23.84444: -0.0002759825,-0.7879695,1.627222,321.9766
+24.28889: 0.03023925,-0.7243114,1.612164,304.4351
+24.73333: -0.03626941,-0.5110916,1.620353,355.1977
+25.17778: -0.06704681,-0.2518812,1.602943,8.428222
+25.62222: 0.01460153,0.1081139,1.609802,4.571737
+26.06667: 0.0114224,0.4287224,1.588422,3.481988
+26.51111: 0.06479204,0.7096791,1.606461,0.6783913
+26.95556: 0.1629901,0.9414014,1.617642,340.6299
+27.4: 0.1698018,0.9986936,1.621465,329.3
+Tutorial Bubble: Sphere Clicked
+27.84444: 0.1481762,0.9775274,1.618213,340.2256
+28.28889: 0.1829702,0.9724964,1.612233,19.12148
+Tutorial Bubble: Sphere (1) Clicked
+28.73333: 0.1840639,1.000317,1.619204,10.63684
+29.17778: 0.1220954,1.067345,1.605014,308.6405
+29.62222: -0.005288796,1.146153,1.606957,294.2329
+Tutorial Bubble: Sphere (2) Clicked
+30.06667: -0.05289236,1.267927,1.601429,265.0851
+30.51111: -0.004553894,1.340917,1.607241,190.6089
+30.95556: 0.08433874,1.241529,1.622066,186.4415
+31.4: 0.02550592,1.267997,1.611892,170.697
+31.84444: -0.2623515,1.239461,1.609021,189.9824
+32.28889: -0.5470954,1.071842,1.618732,231.7145
+32.73333: -0.9206174,0.9749041,1.590818,231.791
+33.17778: -1.229726,0.8030695,1.59934,225.2417
+33.62222: -1.433107,0.5577833,1.61395,218.2946
+34.06667: -1.685902,0.4451188,1.60449,197.2285
+34.51111: -1.896004,0.4514964,1.613934,109.2392
+34.95555: -2.00548,0.5778906,1.612346,100.4181
+Distance to Expected Destination: 0.5932179
+35.4: -2.096405,0.5704943,1.618925,99.75019
+Trail Result: Fail at object: TutorialDestination | Time Spent: -2.147484E+09
+Trail No.:-1 Ends
+Trail No.:0 Begins
+43.13334: 0.05363748,-0.74585,1.63161,359.741
+43.57778: 0.05996325,-0.7361181,1.630127,1.157496
+44.02222: 0.0534111,-0.7330185,1.629245,0.3768254
+44.46667: 0.03746084,-0.7242565,1.628612,0.5663291
+Learning Tutorial: user selects target -1 position
+44.91111: 0.0347003,-0.714495,1.626778,0.9311255
+45.35556: 0.03836886,-0.7106218,1.627252,1.303627
+Learning Tutorial: user selects target -1 position
+45.8: 0.03895757,-0.7098166,1.627301,1.956701
+46.24445: 0.04177265,-0.7132226,1.627368,2.847027
+46.68889: 0.03927578,-0.7201004,1.628216,2.592774
+47.13334: 0.03622349,-0.7218343,1.626814,2.433801
+47.57778: 0.02914702,-0.6780816,1.517086,7.662562
+48.02222: -0.03323071,-0.6387981,1.559283,6.712727
+48.46667: -0.01966981,-0.4826483,1.57979,5.152888
+48.91111: 0.06523082,-0.1137047,1.620352,2.415768
+49.35556: 0.009155992,-0.05607355,1.63434,0.4711071
+Learning Tutorial: user starts reading map for 10 seconds
+49.8: 0.01610724,-0.02851634,1.627883,0.006678814
+50.24445: 0.01750711,0.007679425,1.630035,1.316102
+50.68889: 0.010901,0.04418877,1.628706,0.7122972
+51.13334: -0.02432157,0.05320884,1.62833,335.9528
+51.57778: -0.04022186,0.03895776,1.624346,334.3411
+52.02222: -0.01019129,0.03481683,1.624201,1.4513
+52.46667: -0.006418223,0.03991618,1.625243,355.2388
+52.91111: 0.001752563,0.04987285,1.624486,354.9529
+53.35556: 0.004527673,0.0559837,1.624173,355.5891
+53.8: 0.006933015,0.05263743,1.623932,355.044
+54.24445: 0.004988612,0.04719642,1.624196,355.1623
+54.68889: 0.007525393,0.03784018,1.624919,355.4967
+55.13334: 0.02169735,0.02957672,1.632729,11.84176
+55.57778: 0.2033356,-0.2063294,1.607413,68.31717
+56.02222: 0.4426454,-0.5148912,1.599127,104.5143
+56.46667: 0.82932,-0.5697719,1.60573,82.58282
+56.91111: 1.153027,-0.6607012,1.603016,63.13552
+57.35556: 1.460336,-0.661675,1.618445,33.14096
+57.8: 1.652049,-0.4686097,1.607566,24.58171
+58.24445: 1.895586,-0.2908835,1.60181,14.47931
+Learning Tutorial: user selects target 0 position
+58.68889: 2.058662,-0.1659991,1.625753,347.8633
+59.13334: 1.964309,-0.2218943,1.619874,302.5693
+59.57778: 1.694113,-0.4450422,1.590471,288.5165
+60.02222: 1.366709,-0.4381517,1.545387,289.4001
+60.46667: 0.9377531,-0.3629081,1.585754,298.7808
+60.91111: 0.5468735,-0.2954641,1.610139,336.8341
+61.35556: 0.2897941,-0.1278271,1.603637,348.9998
+61.8: 0.05588211,-0.04663066,1.635408,1.749956
+Learning Tutorial: user starts reading map for 10 seconds
+62.24445: 0.02182278,-0.05937909,1.63478,359.6793
+62.68889: 0.03774643,-0.05992494,1.632053,0.5239158
+63.13334: 0.03635913,-0.04302724,1.630966,359.9624
+63.57778: 0.0339156,-0.02229379,1.630878,0.6304828
+64.02222: 0.03627086,-0.01552272,1.629931,0.7134129
+64.46667: 0.03186028,-0.01826047,1.629025,359.4538
+64.91111: 0.02745121,-0.00309474,1.625525,358.6676
+65.35556: 0.02515833,-0.004793046,1.617821,356.5274
+65.8: 0.02219653,-0.005999346,1.620542,355.764
+66.24445: 0.01435214,0.001016346,1.622481,355.4251
+66.68889: 0.01229993,0.00993355,1.624422,356.9606
+67.13333: 0.00596118,-0.004075585,1.626356,0.008210818
+67.57778: -0.06497197,-0.05863962,1.621321,288.3943
+68.02222: -0.1897734,-0.1470805,1.612212,283.6435
+68.46667: -0.5562888,-0.2515286,1.606693,292.9446
+68.91111: -0.9004563,-0.05071602,1.630825,294.4219
+69.35556: -1.356227,0.06703747,1.60562,294.4945
+69.8: -1.738507,0.2720126,1.593645,301.14
+70.24445: -2.072915,0.4861486,1.612981,308.0008
+Learning Tutorial: user selects target 1 position
+70.68889: -2.350994,0.5911009,1.634659,344.8456
+71.13333: -2.281724,0.5361936,1.621806,55.41482
+71.57778: -2.015529,0.2093372,1.573251,90.2411
+72.02222: -1.614306,0.12118,1.564095,103.4161
+72.46667: -1.232738,-0.01915804,1.561969,100.9102
+72.91111: -0.8751637,-0.1759784,1.56279,84.62452
+73.35556: -0.5262982,-0.1522384,1.57134,64.47198
+73.8: -0.2444458,-0.1580493,1.597365,15.3307
+74.24445: -0.1056463,-0.1021847,1.625076,359.8821
+Learning Tutorial: user starts reading map for 10 seconds
+74.68889: -0.09366795,-0.07606788,1.636164,357.9984
+75.13334: -0.06317507,-0.06655139,1.635484,357.9911
+75.57778: -0.06141267,-0.04973239,1.635897,358.0975
+76.02222: -0.06045975,-0.03449607,1.631783,356.7862
+76.46667: -0.08959705,-0.02567493,1.611345,340.6762
+76.91111: -0.08593358,-0.0311956,1.622778,347.8796
+77.35556: -0.07692787,-0.0374129,1.627403,354.8777
+77.8: -0.07811026,-0.03730768,1.629277,355.2292
+78.24445: -0.07654628,-0.03281172,1.627402,355.0034
+78.68889: -0.07621592,-0.03569467,1.627412,355.1719
+79.13334: -0.08066189,-0.04539655,1.626424,351.2452
+79.57778: -0.07541557,-0.05221163,1.628184,355.0063
+80.02222: -0.06652916,-0.04698964,1.62773,358.0831
+80.46667: -0.06621304,-0.03939684,1.627443,357.8135
+80.91111: -0.06747703,-0.03720836,1.62709,356.2153
+Learning Tutorial: user selects target 2 position
+81.35556: -0.06718543,-0.03461548,1.626864,356.6797
+81.8: -0.06990533,-0.03185898,1.626674,357.4676
+Learning Tutorial: user starts reading map for 10 seconds
+82.24445: -0.07094105,-0.03268196,1.62607,358.0109
+82.68889: -0.06934109,-0.03687841,1.627684,358.1379
+83.13334: -0.06692159,-0.03709336,1.627385,357.5271
+83.57778: -0.06672099,-0.03566531,1.627385,357.7301
+84.02222: -0.06710371,-0.03299262,1.627146,357.7294
+84.46667: -0.06765045,-0.0306094,1.626647,357.2929
+84.91111: -0.0667221,-0.02902144,1.626312,356.6454
+85.35556: -0.06279776,-0.02781416,1.626069,357.1161
+85.8: -0.05953718,-0.0257038,1.625582,358.5743
+86.24445: -0.05747311,-0.02964694,1.626474,358.291
+86.68889: -0.05249847,-0.03673947,1.626991,358.8584
+87.13334: -0.03257463,-0.0421502,1.628528,2.381288
+87.57778: 0.0001556901,-0.02146452,1.623634,17.93074
+88.02222: -0.1328707,0.05393974,1.63184,41.81004
+88.46667: -0.2333722,0.03757265,1.632675,62.6798
+Learning Tutorial: user selects target 3 position
+88.91111: -0.2873617,-0.1324777,1.6067,42.60644
+89.35556: -0.3841684,-0.2606577,1.604539,26.25472
+89.8: -0.3453024,-0.3079967,1.571361,17.49022
+90.24445: -0.05915088,-0.270102,1.532698,9.491317
+90.68889: -0.03457586,-0.1290284,1.624693,0.3021087
+Learning Tutorial: user starts reading map for 10 seconds
+91.13334: 0.009362859,-0.03802619,1.643007,359.3466
+91.57778: 0.01559077,-0.005679523,1.635011,358.6695
+92.02222: 0.008655203,0.01282179,1.63185,358.025
+92.46667: -0.01133777,0.01052044,1.628111,356.9849
+92.91111: -0.0242714,0.0004126891,1.628829,348.9817
+93.35556: -0.02403414,-0.005524907,1.627396,345.3007
+93.8: -0.02334033,-0.005088615,1.625565,351.4968
+94.24445: -0.04598821,-0.01120388,1.629899,0.9477074
+94.68889: -0.06150924,-0.03177357,1.624018,45.79043
+95.13334: -0.0138302,-0.2894134,1.622004,82.15075
+95.57778: 0.0945226,-0.5873083,1.571068,75.94746
+96.02222: 0.2849893,-0.7928984,1.557433,104.7967
+96.46667: 0.4492334,-0.9285714,1.59305,107.5388
+96.91111: 0.4864575,-1.045151,1.604316,68.53552
+97.35556: 0.4307503,-1.105,1.621863,359.4146
+Learning Tutorial: user selects target 4 position
+97.8: 0.319797,-0.9497698,1.593352,347.3251
+98.24445: 0.4304594,-0.8414561,1.60328,339.219
+98.68889: 0.4590866,-0.7098662,1.524125,321.269
+99.13334: 0.2081217,-0.5582727,1.58136,340.6842
+99.57778: 0.1067283,-0.3778727,1.601527,354.8336
+Trail Result: Success object: Learning Phase | Time Spent: -2.147484E+09
+Trail No.:0 Ends
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:22 Begins
+17.14445: -0.07821862,-0.0917699,1.585366,309.4698
+17.58889: 0.008722514,-0.05898527,1.637794,2.408147
+Distance to Expected Destination: 1.699683
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.243465
+Trail No.:22 Ends
+User starts reading map for 2 seconds.
+Trail No.:28 Begins
+22.28889: 0.00790059,-0.05217461,1.636608,6.926282
+Distance to Expected Destination: 1.49771
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.8205948
+Trail No.:28 Ends
+User starts reading map for 2 seconds.
+Trail No.:33 Begins
+26.14445: -0.05713521,-0.0683202,1.632976,312.3824
+Distance to Expected Destination: 1.531702
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.8385086
+Trail No.:33 Ends
+User starts reading map for 2 seconds.
+Trail No.:5 Begins
+30.08889: 0.0001746342,-0.07665926,1.663595,1.048477
+30.53333: -0.002914611,-0.01497952,1.585517,358.8715
+Distance to Expected Destination: 2.79578
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.019787
+Trail No.:5 Ends
+User starts reading map for 2 seconds.
+Trail No.:26 Begins
+34.18889: 0.03164788,0.006224544,1.562463,6.697275
+34.63334: 0.03990819,-0.02134477,1.607323,7.052894
+Distance to Expected Destination: 1.622312
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.16571
+Trail No.:26 Ends
+User starts reading map for 2 seconds.
+Trail No.:23 Begins
+38.38889: -0.002499241,-0.04736023,1.622887,357.4678
+Distance to Expected Destination: 2.951327
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7338066
+Trail No.:23 Ends
+User starts reading map for 2 seconds.
+Trail No.:18 Begins
+42.15556: -0.01191331,-0.04700959,1.630567,356.2639
+Distance to Expected Destination: 1.968582
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.8174706
+Trail No.:18 Ends
+User starts reading map for 2 seconds.
+Trail No.:48 Begins
+46.01111: -0.01926889,-0.02183434,1.572443,355.3346
+46.45555: -0.02232449,-0.04484205,1.63108,354.2585
+Distance to Expected Destination: 1.531258
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.9932594
+Trail No.:48 Ends
+User starts reading map for 2 seconds.
+Trail No.:11 Begins
+50.06667: -0.01118251,-0.05812655,1.638665,357.5416
+Distance to Expected Destination: 2.856345
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6606483
+Trail No.:11 Ends
+User starts reading map for 2 seconds.
+Trail No.:9 Begins
+53.77778: -0.004241563,-0.07698563,1.635303,355.7431
+54.22223: -0.01600587,-0.03516596,1.583872,319.8504
+Distance to Expected Destination: 3.121697
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.193821
+Trail No.:9 Ends
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:38 Begins
+20.27778: -0.03095363,0.1557747,1.587114,44.09174
+20.72222: -0.0531982,0.138095,1.606993,34.96429
+Distance to Expected Destination: 1.819023
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.190002
+Trail No.:38 Ends
+User starts reading map for 2 seconds.
+Trail No.:22 Begins
+24.51111: -0.06968869,0.13325,1.625735,358.1749
+Distance to Expected Destination: 1.709994
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7552643
+Trail No.:22 Ends
+User starts reading map for 2 seconds.
+Trail No.:37 Begins
+28.34444: -0.07693872,0.09126379,1.644781,358.6348
+Distance to Expected Destination: 1.549162
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.5939751
+Trail No.:37 Ends
+User starts reading map for 2 seconds.
+Trail No.:29 Begins
+31.98889: -0.07994711,0.1300203,1.626854,356.5454
+Distance to Expected Destination: 1.534955
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6393814
+Trail No.:29 Ends
+User starts reading map for 2 seconds.
+Trail No.:36 Begins
+35.68889: -0.07886352,0.1228175,1.628278,356.1663
+Distance to Expected Destination: 1.614343
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6193314
+Trail No.:36 Ends
+User starts reading map for 2 seconds.
+Trail No.:39 Begins
+39.35556: -0.08475965,0.1044157,1.628914,356.309
+Distance to Expected Destination: 1.534364
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7532616
+Trail No.:39 Ends
+User starts reading map for 2 seconds.
+Trail No.:41 Begins
+43.25556: -0.07742006,0.124931,1.617905,354.4009
+43.7: -0.07278745,0.1224076,1.622534,354.7766
+44.14445: -0.07334714,0.1176364,1.624408,355.0303
+44.58889: -0.07526185,0.1123123,1.624414,354.7722
+45.03333: -0.07079357,0.1114796,1.624171,355.162
+45.47778: -0.06483266,0.1121729,1.624358,355.3929
+45.92222: -0.06626076,0.112745,1.624418,355.8241
+46.36667: -0.06959308,0.1143439,1.624094,355.5237
+Distance to Expected Destination: 2.635488
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 3.772713
+Trail No.:41 Ends
+User starts reading map for 2 seconds.
+Trail No.:19 Begins
+50.05556: -0.07236587,0.1149004,1.627584,355.4245
+Distance to Expected Destination: 2.564659
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6950493
+Trail No.:19 Ends
+User starts reading map for 2 seconds.
+Trail No.:26 Begins
+53.8: -0.1699414,0.4239759,1.193201,359.4925
+54.24445: -0.1177984,0.1612026,1.63133,353.011
+54.68889: -0.08065878,0.08838418,1.62154,353.2095
+Distance to Expected Destination: 1.584298
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.418983
+Trail No.:26 Ends
+User starts reading map for 2 seconds.
+Trail No.:16 Begins
+58.95556: 1.039305,0.1440953,1.614529,26.52649
+59.4: 1.290518,0.1373466,1.621756,334.5771
+59.84444: 1.323438,0.02796344,1.625429,307.0157
+Distance to Expected Destination: 3.117287
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.353931
+Trail No.:16 Ends
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:5 Begins
+23.45556: 0.0226966,-0.07165672,1.627888,355.7743
+Distance to Expected Destination: 2.761182
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.8552513
+Trail No.:5 Ends
+User starts reading map for 2 seconds.
+Trail No.:46 Begins
+28.02222: 0.04931435,-0.05494933,1.620582,357.9597
+Distance to Expected Destination: 1.637477
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7209892
+Trail No.:46 Ends
+User starts reading map for 2 seconds.
+Trail No.:2 Begins
+31.78889: 0.05773071,-0.05629054,1.573734,358.3091
+Distance to Expected Destination: 2.774896
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.5762749
+Trail No.:2 Ends
+User starts reading map for 2 seconds.
+Trail No.:13 Begins
+35.41111: -0.04510387,0.0990974,1.513456,354.4406
+35.85556: 0.02087992,-0.08277114,1.624018,355.2321
+36.3: 0.06648252,-0.1126313,1.619246,5.68994
+36.74445: 0.06107327,-0.1135122,1.622925,8.512156
+37.18889: 0.04303426,-0.1155445,1.627349,2.875245
+37.63334: 0.03088678,-0.1141023,1.6307,0.1271661
+Distance to Expected Destination: 2.815977
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 3.097172
+Trail No.:13 Ends
+User starts reading map for 2 seconds.
+Trail No.:7 Begins
+41.55556: 0.4241375,-1.205601,0.7815509,185.7706
+42: 0.229491,-1.47222,0.6314542,245.2212
+42.44445: 0.5372289,-1.643705,0.6122637,343.5033
+42.88889: 0.6273173,-2.229004,0.6345462,259.3016
+43.33334: 0.9274156,-2.842061,0.8608999,173.9245
+43.77778: 1.055192,-3.345329,0.9763149,165.341
+44.22223: 1.274634,-3.878942,1.011386,139.7812
+44.66667: 1.401092,-4.157039,0.8467034,113.2515
+45.11111: 1.381759,-4.215537,0.8406909,106.0739
+45.55556: 1.377657,-4.213788,0.8404189,109.4805
+46: 1.378203,-4.214054,0.8404661,109.4929
+46.44445: 1.377205,-4.214348,0.8398101,109.4323
+46.88889: 1.377306,-4.214245,0.8395561,109.5322
+47.33334: 1.377064,-4.214358,0.8392203,109.5555
+47.77778: 1.377389,-4.214365,0.8393837,109.5158
+48.22223: 1.376942,-4.214443,0.8389435,109.5044
+48.66667: 1.376676,-4.214505,0.8387802,109.4848
+49.11111: 1.376393,-4.214572,0.8385797,109.4429
+49.55556: 1.375714,-4.214563,0.837657,109.4408
+50: 1.376095,-4.214521,0.8381174,109.4343
+50.44445: 1.376001,-4.214642,0.8378768,109.4265
+50.88889: 1.375991,-4.214796,0.8377541,109.4225
+51.33334: 1.376151,-4.214711,0.8378333,109.4267
+51.77778: 1.375348,-4.214751,0.837079,109.4255
+52.22223: 1.375875,-4.2147,0.8376818,109.4124
+52.66667: 1.375884,-4.214777,0.8374588,109.4129
+53.11111: 1.375777,-4.214793,0.837607,109.4207
+53.55556: 1.375658,-4.214719,0.8373709,109.4456
+54: 1.376068,-4.215015,0.8372754,109.47
+54.44445: 1.375557,-4.214907,0.8371761,109.4406
+54.88889: 1.375853,-4.214784,0.8372988,109.4316
+55.33334: 1.375661,-4.214923,0.8372775,109.4453
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:45 Begins
+20.88889: 0.1674867,-1.281821,1.604399,357.568
+21.33333: 0.1270368,-1.47313,1.616118,355.8766
+21.77778: 0.1836792,-1.512913,1.624448,354.6502
+22.22222: 0.207538,-1.515858,1.62404,353.4548
+22.66667: 0.2569767,-1.472987,1.621111,355.5055
+Distance to Expected Destination: 4.259101
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 2.497627
+Trail No.:45 Ends
+User starts reading map for 2 seconds.
+Trail No.:26 Begins
+29.25556: 0.4738396,-0.8502256,1.610533,338.3168
+29.7: 0.4738396,-0.8502256,1.610533,338.3168
+30.14445: 0.4738396,-0.8502256,1.610533,338.3168
+30.58889: 0.4738396,-0.8502256,1.610533,338.3168
+31.03333: 0.4738396,-0.8502256,1.610533,338.3168
+31.47778: 0.4738396,-0.8502256,1.610533,338.3168
+31.92222: 0.4738396,-0.8502256,1.610533,338.3168
+32.36667: 0,0,0,0
+32.81111: 0,0,0,0
+33.25556: 0,0,0,0
+33.7: 0,0,0,0
+34.14444: 0,0,0,0
+34.58889: 0,0,0,0
+35.03333: 0,0,0,0
+35.47778: 0,0,0,0
+35.92222: 0,0,0,0
+36.36667: 0,0,0,0
+36.81111: 0,0,0,0
+37.25556: 0,0,0,0
+37.7: 0,0,0,0
+38.14444: 0,0,0,0
+38.58889: 0,0,0,0
+39.03333: 0,0,0,0
+39.47778: 0,0,0,0
+39.92222: 0,0,0,0
+40.36667: 0,0,0,0
+40.81111: 0,0,0,0
+41.25556: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:27 Begins
+7.96: 0,0,0,0
+8.76: 0,0,0,0
+9.559999: 0,0,0,0
+10.36: 0,0,0,0
+11.16: 0,0,0,0
+11.96: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:3 Begins
+6.2: 0,0,0,0
+7: 0,0,0,0
+7.8: 0,0,0,0
+8.599999: 0,0,0,0
+Distance to Expected Destination: 3.162215
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 3.810101
+Trail No.:3 Ends
+User starts reading map for 2 seconds.
+Trail No.:41 Begins
+15.26: 0,0,0,0
+16.06: 0,0,0,0
+16.86: 0,0,0,0
+17.66: 0,0,0,0
+Distance to Expected Destination: 1.855837
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 3.495712
+Trail No.:41 Ends
+User starts reading map for 2 seconds.
+Trail No.:28 Begins
+22.7: 0,0,0,0
+23.5: 0,0,0,0
+24.3: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:2 Begins
+8.48: 0,0,0,0
+9.28: 0,0,0,0
+10.08: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:5 Begins
+7.32: 0,0,0,0
+8.12: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:42 Begins
+8.48: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:35 Begins
+5.38: 0,0,0,0
+6.18: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:24 Begins
+7.4: 0,0,0,0
+8.2: 0,0,0,0
+9: 0,0,0,0
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:20 Begins
+20.74445: -0.03712063,-0.08116412,1.627858,327.9582
+21.18889: -0.01138921,-0.07306807,1.636373,349.9252
+Distance to Expected Destination: 1.58131
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.136402
+Trail No.:20 Ends
+User starts reading map for 2 seconds.
+Trail No.:5 Begins
+25.94444: -0.01115669,-0.06526662,1.639253,359.7139
+26.38889: -0.01373639,-0.07387853,1.63935,356.7484
+26.83333: -0.00109769,-0.1035481,1.638835,358.836
+Distance to Expected Destination: 2.694277
+27.27778: -0.003621386,-0.1259036,1.6448,356.6418
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.775028
+Trail No.:5 Ends
+User starts reading map for 2 seconds.
+Trail No.:36 Begins
+30.73333: -0.01806121,-0.09779094,1.64333,358.2968
+Distance to Expected Destination: 1.408786
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6079407
+Trail No.:36 Ends
+User starts reading map for 2 seconds.
+Trail No.:39 Begins
+34.37778: -0.007567784,-0.1090788,1.640015,357.8111
+Distance to Expected Destination: 1.54398
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.533844
+Trail No.:39 Ends
+User starts reading map for 2 seconds.
+Trail No.:26 Begins
+37.96667: -0.01297242,-0.09505631,1.639185,356.4998
+38.41111: -0.0113297,-0.09238139,1.638328,356.5103
+Distance to Expected Destination: 1.688306
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.9224319
+Trail No.:26 Ends
+User starts reading map for 2 seconds.
+Trail No.:1 Begins
+41.93333: -0.005442122,-0.1021768,1.638611,355.5682
+Distance to Expected Destination: 2.799377
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6478958
+Trail No.:1 Ends
+User starts reading map for 2 seconds.
+Trail No.:33 Begins
+45.64445: 0.002509741,-0.1156407,1.639054,356.3914
+Distance to Expected Destination: 1.543328
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.5320854
+Trail No.:33 Ends
+User starts reading map for 2 seconds.
+Trail No.:38 Begins
+49.23333: -0.0008293446,-0.09907078,1.641658,355.0553
+49.67778: 0.01799603,-0.1158789,1.63314,32.16231
+50.12222: 0.01571503,-0.3114361,1.619121,43.38706
+50.56667: 0.1155968,-0.7175791,1.544522,75.61076
+51.01111: 0.2652735,-1.176431,1.396886,114.6746
+51.45555: 0.188054,-1.7396,1.068613,266.0454
+51.9: 0.2751573,-2.16432,0.9556196,276.1696
+52.34444: 0.736944,-2.630932,1.067871,246.3491
+52.78889: 1.063148,-3.140383,1.124706,184.9059
+53.23333: 1.238122,-3.759427,1.063768,216.6939
+53.67778: 1.235553,-4.09973,0.9798263,242.8073
+54.12222: 1.290227,-4.177815,0.8483077,256.0429
+54.56667: 1.30758,-4.168575,0.8305777,261.1217
+55.01111: 1.309402,-4.167775,0.8312668,259.6202
+55.45556: 1.310497,-4.167403,0.8322513,259.5603
+55.9: 1.310914,-4.167418,0.8328361,259.5309
+56.34444: 1.311449,-4.167305,0.8332654,259.5238
+56.78889: 1.311789,-4.167252,0.8334608,259.5044
+57.23333: 1.312192,-4.167221,0.8340371,259.4775
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:32 Begins
+27.63333: 0.001164567,0.03072184,1.642751,354.0954
+Distance to Expected Destination: 1.542451
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7628746
+Trail No.:32 Ends
+User starts reading map for 2 seconds.
+Trail No.:41 Begins
+33.02222: 0.02667732,0.05010375,1.639473,357.524
+Distance to Expected Destination: 2.529392
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.7041168
+Trail No.:41 Ends
+User starts reading map for 2 seconds.
+Trail No.:19 Begins
+36.77778: 0.04338833,0.04948575,1.638714,13.96357
+Distance to Expected Destination: 2.534895
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.5493469
+Trail No.:19 Ends
+User starts reading map for 2 seconds.
+Trail No.:33 Begins
+41.05556: 0.03249481,0.04395615,1.638331,357.9587
+Distance to Expected Destination: 1.539376
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6164207
+Trail No.:33 Ends
+User starts reading map for 2 seconds.
+Trail No.:9 Begins
+44.72223: 0.02658078,0.03166544,1.643145,356.3327
+Distance to Expected Destination: 2.966904
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.8448982
+Trail No.:9 Ends
+User starts reading map for 2 seconds.
+Trail No.:35 Begins
+48.63334: 0.01764978,0.0391921,1.640029,354.5985
+49.07778: 0.01720043,0.04259663,1.640622,355.0184
+49.52222: 0.01756229,0.048086,1.639946,355.0551
+49.96667: 0.01932934,0.04824269,1.639885,354.7784
+Distance to Expected Destination: 2.955208
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.82962
+Trail No.:35 Ends
+User starts reading map for 2 seconds.
+Trail No.:2 Begins
+54.81111: 0.04943477,0.02746963,1.636093,15.83179
+55.25556: 0.03826428,0.05025483,1.632672,353.9316
+55.7: 0.04401771,0.05512234,1.629945,356.6829
+56.14445: 0.03907809,0.02752456,1.632203,4.341336
+Distance to Expected Destination: 2.699167
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 1.916004
+Trail No.:2 Ends
+User starts reading map for 2 seconds.
+Trail No.:38 Begins
+59.75556: 0.01135142,0.05738149,1.629714,359.0625
+60.2: 0.02532934,0.0326483,1.614526,20.75526
+60.64445: 0.08938451,-0.3624447,1.573938,53.96599
+61.08889: 0.1576495,-0.7690434,1.540542,106.2469
+61.53334: 0.2902063,-1.169224,1.492036,148.8246
+61.97778: 0.3103257,-1.701094,1.191408,207.4907
+62.42222: 0.608221,-2.156781,1.048264,159.2607
+62.86667: 1.003255,-2.462965,1.099505,106.1033
+63.31111: 1.13421,-2.925036,1.058875,102.1416
+63.75556: 1.218364,-3.396642,1.029347,113.5827
+64.2: 1.184265,-3.601276,0.9112024,75.73972
+64.64445: 0.9926497,-3.656998,0.709327,58.98212
+65.08889: 0.8800955,-3.643271,0.7346662,102.0078
+65.53333: 0.8926725,-3.676322,0.7140793,97.55978
+65.97778: 0.902704,-3.684353,0.7043426,92.53206
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:35 Begins
+14.71111: 0.000651828,0.03879403,1.63295,356.2709
+Distance to Expected Destination: 2.943999
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6182747
+Trail No.:35 Ends
+User starts reading map for 2 seconds.
+Trail No.:25 Begins
+18.41111: 0.01391998,0.03118905,1.62725,356.6865
+Distance to Expected Destination: 2.671675
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6421432
+Trail No.:25 Ends
+User starts reading map for 2 seconds.
+Trail No.:17 Begins
+22.1: 0.0283123,0.04340644,1.633394,357.6492
+Distance to Expected Destination: 2.556077
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6075478
+Trail No.:17 Ends
+User starts reading map for 2 seconds.
+Trail No.:31 Begins
+25.75556: 0.1572555,-1.395161,1.627309,345.772
+26.2: 0.1926611,-1.50485,1.624903,344.3415
+26.64445: 0.3008481,-1.502041,1.627126,350.1366
+27.08889: 0.3588675,-1.4427,1.616599,348.576
+27.53333: 0.2789062,-1.29992,1.616799,352.7574
+27.97778: 0.2442367,-1.148128,1.601092,335.5752
+28.42222: 0.3094382,-1.024576,1.544004,282.4345
+28.86667: 0.3553991,-0.9888527,1.548328,247.3307
+29.31111: 0.2847552,-1.093656,1.561064,234.4906
+29.75556: 0.2070543,-1.216742,1.557098,218.722
+30.2: 0.1158141,-1.172291,1.493422,177.2675
+30.64445: 0.1086322,-1.338563,1.288596,173.8848
+31.08889: 0.1906655,-1.592011,0.9399241,284.7559
+31.53333: 0.3410068,-1.853067,0.7342398,303.598
+31.97778: 0.5822034,-2.326045,0.813307,254.6799
+32.42222: 0.8248829,-2.691136,0.9535776,204.9848
+32.86667: 0.9565808,-3.158403,1.016442,122.7206
+33.31111: 1.025894,-3.624548,1.050206,201.4487
+33.75556: 1.180271,-4.027699,0.986088,248.5232
+34.2: 1.213252,-4.184691,0.8640189,259.8198
+34.64444: 1.254737,-4.183799,0.8334383,274.5598
+35.08889: 1.25155,-4.179828,0.8309999,274.0983
+35.53333: 1.25047,-4.179605,0.8307743,274.2072
+35.97778: 1.251052,-4.179605,0.8312355,274.2304
+36.42222: 1.250974,-4.179443,0.8311158,274.2594
+36.86667: 1.250892,-4.179471,0.8311214,274.2499
+37.31111: 1.251041,-4.179358,0.8312842,274.2486
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:32 Begins
+19.88889: -0.00159416,-0.03136026,1.627388,358.4034
+20.33333: -0.0004850216,-0.03397776,1.628839,359.4931
+20.77778: -0.006625957,-0.06450747,1.633751,25.41796
+21.22222: 0.007091393,-0.3486326,1.621878,82.50135
+21.66667: 0.07306877,-0.6862128,1.59561,81.70141
+22.11111: 0.2384286,-1.052533,1.560452,121.8806
+22.55556: 0.3778446,-1.372952,1.57729,138.2828
+23: 0.4655481,-1.749887,1.575985,137.9602
+23.44444: 0.608197,-2.131553,1.469015,99.01295
+23.88889: 0.6806889,-2.619647,1.295789,170.5339
+24.33333: 0.7116253,-3.089434,1.083351,208.0587
+24.77778: 1.124043,-3.392213,0.9640031,150.6667
+25.22222: 1.131656,-3.609398,0.922102,143.5817
+25.66667: 0.9472899,-3.754031,0.7510283,14.93963
+26.11111: 0.8143844,-3.740988,0.7067432,109.2783
+26.55556: 0.8161857,-3.729207,0.6940405,97.28706
+27: 0.8374501,-3.756275,0.6823714,90.33097
+27.44444: 0.8377286,-3.764472,0.6812229,88.6109
+27.88889: 0.8372626,-3.762191,0.6829362,90.02745
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:24 Begins
+12.03333: 0.01189914,-0.009937376,1.641346,354.2876
+12.47778: 0.007183586,0.01609986,1.617806,355.4652
+12.92222: -0.003907656,0.02396955,1.598762,351.7352
+13.36667: 0.003261916,0.01587709,1.613096,354.9972
+Distance to Expected Destination: 1.531579
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 2.077972
+Trail No.:24 Ends
+User starts reading map for 2 seconds.
+Trail No.:36 Begins
+17.15556: 0.0111398,-0.001151396,1.633618,357.7799
+Distance to Expected Destination: 1.506273
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.536953
+Trail No.:36 Ends
+User starts reading map for 2 seconds.
+Trail No.:11 Begins
+20.74445: 0.0142719,-0.006581957,1.633199,357.322
+21.18889: 0.01339173,-0.001316002,1.633156,357.4247
+Distance to Expected Destination: 2.897593
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.936058
+Trail No.:11 Ends
+User starts reading map for 2 seconds.
+Trail No.:19 Begins
+24.73333: 0.006942058,0.014084,1.628063,350.1511
+25.17778: 0.006892931,0.02526011,1.6286,351.7835
+Distance to Expected Destination: 2.579445
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.9257355
+Trail No.:19 Ends
+User starts reading map for 2 seconds.
+Trail No.:3 Begins
+29.52222: 0.02393783,-0.003209171,1.631987,359.2827
+29.96667: 0.005827514,-0.01626975,1.639607,6.057016
+30.41111: 0.004267598,-0.09039509,1.627441,52.38651
+30.85556: 0.03730622,-0.4693058,1.60344,87.93987
+31.3: 0.1824649,-0.7605604,1.593941,97.02246
+31.74445: 0.3947535,-1.055105,1.592994,119.2541
+32.18889: 0.4586803,-1.350123,1.572809,125.273
+32.63334: 0.5457897,-1.660753,1.588265,125.4137
+33.07778: 0.7588114,-1.978589,1.587274,137.3323
+33.52222: 0.8166869,-2.242291,1.462823,44.38909
+33.96667: 0.7263494,-2.733427,1.15615,219.099
+34.41111: 0.8923075,-3.066953,0.9547156,188.639
+34.85556: 1.118175,-3.296676,1.025336,154.09
+35.3: 1.078851,-3.537643,0.9449238,155.5422
+35.74445: 0.9238886,-3.688111,0.6999372,141.2135
+36.18889: 0.8315358,-3.738072,0.6975852,107.8367
+36.63334: 0.8177803,-3.742386,0.702105,109.1646
+37.07778: 0.8374104,-3.785544,0.6859052,108.3016
+37.52222: 0.8245507,-3.807437,0.6847834,114.0633
+37.96667: 0.8269171,-3.806129,0.6848264,113.9776
+38.41111: 0.8258301,-3.806178,0.6857162,113.8819
+38.85556: 0.8265764,-3.805942,0.6853814,113.2898
+39.3: 0.8265443,-3.807489,0.68487,111.7741
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:13 Begins
+10.34444: -0.01205564,-0.03991896,1.63425,359.9153
+Distance to Expected Destination: 2.739181
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6562271
+Trail No.:13 Ends
+User starts reading map for 2 seconds.
+Trail No.:32 Begins
+14.06667: 0.00876664,-0.05706829,1.62871,18.29366
+Distance to Expected Destination: 1.529785
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6810074
+Trail No.:32 Ends
+User starts reading map for 2 seconds.
+Trail No.:33 Begins
+17.91111: 0.1873646,-0.1731722,1.612192,280.137
+18.35556: 0.3243733,-0.538107,1.600799,222.6864
+18.8: 0.39678,-0.9010391,1.585435,152.6659
+19.24445: 0.3310371,-1.277457,1.586915,133.8808
+19.68889: 0.4975052,-1.712357,1.544713,133.5385
+20.13333: 0.5979139,-2.22354,1.315986,39.7439
+20.57778: 0.6589672,-2.851774,0.9452057,224.7924
+21.02222: 0.8251954,-3.18584,0.9544029,305.9755
+21.46667: 1.004116,-3.673892,1.030518,219.0674
+21.91111: 1.09736,-4.116195,0.9525753,237.2673
+22.35556: 1.131909,-4.178472,0.8692659,268.0343
+22.8: 1.119497,-4.166831,0.8348728,281.2629
+23.24445: 1.122202,-4.16485,0.8379859,279.626
+23.68889: 1.122722,-4.164603,0.8382344,279.5286
+24.13333: 1.121349,-4.164528,0.8376698,279.4601
+24.57778: 1.12147,-4.164377,0.8377211,279.3777
+25.02222: 1.121468,-4.164376,0.8376834,279.3304
+25.46667: 1.121012,-4.164336,0.8377317,279.2681
+25.91111: 1.120611,-4.164367,0.8374174,279.2306
+26.35556: 1.120319,-4.164298,0.8371892,279.1776
+26.8: 1.119802,-4.164311,0.8367164,279.1282
+27.24445: 1.119718,-4.164349,0.836789,279.067
+Participant Name: 
+Participant Gender: 
+Participant ID: 
+Test Date: 
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:20 Begins
+19.52222: -0.03390761,-0.05651578,1.631634,324.8244
+Distance to Expected Destination: 1.539886
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 0.6398659
+Trail No.:20 Ends
+User starts reading map for 2 seconds.
+Trail No.:35 Begins
+23.82222: -0.006374309,-0.3301144,1.636244,79.10805
+24.26667: 0.07115397,-0.6822142,1.613334,125.0644
+24.71111: 0.2888678,-0.9222589,1.602387,150.095
+25.15556: 0.4227903,-1.26289,1.558253,136.7673
+25.6: 0.5058437,-1.616161,1.5753,126.6244
+26.04445: 0.6978401,-1.969949,1.550824,136.3806
+26.48889: 0.7425575,-2.4044,1.362219,135.3226
+26.93333: 0.6877625,-2.90918,1.083853,237.1925
+27.37778: 0.888515,-3.288073,1.074527,263.0648
+27.82222: 1.032051,-3.75666,1.154433,178.8624
+28.26667: 1.157169,-4.249675,1.093271,218.44
+28.71111: 1.159528,-4.463783,0.9050604,243.8361
+29.15556: 1.176334,-4.480405,0.8847471,252.7852
+29.6: 1.181522,-4.484517,0.8790848,249.7119
+30.04445: 1.181699,-4.484288,0.8789165,249.8047
+30.48889: 1.181874,-4.48378,0.8787662,249.8143
+30.93333: 1.182144,-4.484259,0.8784909,249.9646
+31.37778: 1.183266,-4.483749,0.8792733,249.9431
+31.82222: 1.183516,-4.483594,0.879411,249.9767
+32.26667: 1.183658,-4.483704,0.879385,250.0629
+32.71111: 1.182893,-4.484035,0.8786075,250.2018
+33.15556: 1.18308,-4.484053,0.8789158,250.3132
+33.6: 1.182533,-4.484339,0.8782779,250.4886
