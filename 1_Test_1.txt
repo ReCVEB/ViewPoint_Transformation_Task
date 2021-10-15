@@ -1104,3 +1104,217 @@ Trail No.:43 Begins
 311.4556: 0.7823048,-3.914553,1.207783,163.2119
 311.9: 0.7764047,-3.915839,1.208375,165.0796
 312.3445: 0.7637328,-3.912203,1.212847,169.7272
+Participant Name: Test
+Participant Gender: 1
+Participant ID: 1
+Test Date: 1
+Navi Mode: full
+Trail No.:-1 Begins
+14.82: 0,0,0,0
+15.62: 0,0,0,0
+16.42: 0,0,0,0
+17.22: 0,0,0,0
+18.02: 0,0,0,0
+18.82: 0,0,0,0
+Tutorial Bubble: Sphere (2) Clicked
+19.62: 0,0,0,0
+20.42: 0,0,0,0
+21.22: 0,0,0,0
+Tutorial Bubble: Sphere Clicked
+22.02: 0,0,0,0
+22.82: 0,0,0,0
+23.62: 0,0,0,0
+Tutorial Bubble: Sphere (1) Clicked
+24.42: 0,0,0,0
+25.22: 0,0,0,0
+26.02: 0,0,0,0
+26.82: 0,0,0,0
+27.62: 0,0,0,0
+28.42: 0,0,0,0
+Distance to Expected Destination: 0.2496067
+Trail Result: Success object: TutorialDestination | Time Spent: -2.147484E+09
+Trail No.:-1 Ends
+Trail No.:0 Begins
+39.9: 0,0,0,0
+40.7: 0,0,0,0
+41.5: 0,0,0,0
+42.3: 0,0,0,0
+43.1: 0,0,0,0
+43.9: 0,0,0,0
+44.7: 0,0,0,0
+45.5: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+46.3: 0,0,0,0
+47.1: 0,0,0,0
+47.9: 0,0,0,0
+48.7: 0,0,0,0
+Learning Tutorial: user selects target -1 position
+49.5: 0,0,0,0
+50.3: 0,0,0,0
+51.1: 0,0,0,0
+Learning Tutorial: user starts reading map for 10 seconds
+51.9: 0,0,0,0
+52.7: 0,0,0,0
+53.5: 0,0,0,0
+54.3: 0,0,0,0
+55.1: 0,0,0,0
+55.9: 0,0,0,0
+56.7: 0,0,0,0
+57.5: 0,0,0,0
+58.3: 0,0,0,0
+59.1: 0,0,0,0
+59.9: 0,0,0,0
+60.7: 0,0,0,0
+61.5: 0,0,0,0
+62.3: 0,0,0,0
+63.1: 0,0,0,0
+63.9: 0,0,0,0
+64.7: 0,0,0,0
+65.5: 0,0,0,0
+Participant Name: Test
+Participant Gender: 1
+Participant ID: 1
+Test Date: 1
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:2 Begins
+17.38: 0,0,0,0
+18.18: 0,0,0,0
+18.98: 0,0,0,0
+19.78: 0,0,0,0
+20.58: 0,0,0,0
+21.38: 0,0,0,0
+Distance to Expected Destination: 1.172783
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 5.533287
+Trail No.:2 Ends
+User starts reading map for 2 seconds.
+Trail No.:1 Begins
+38.32: 0,0,0,0
+39.12: 0,0,0,0
+39.92: 0,0,0,0
+40.72: 0,0,0,0
+41.52: 0,0,0,0
+42.32: 0,0,0,0
+43.12: 0,0,0,0
+Distance to Expected Destination: 1.645851
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 5.864639
+Trail No.:1 Ends
+User starts reading map for 2 seconds.
+Trail No.:3 Begins
+56.3: 0,0,0,0
+57.1: 0,0,0,0
+57.9: 0,0,0,0
+58.7: 0,0,0,0
+Distance to Expected Destination: 3.407253
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 3.528828
+Trail No.:3 Ends
+Participant Name: Test
+Participant Gender: 1
+Participant ID: 1
+Test Date: 1
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:2 Begins
+16: 0,0,0,0
+16.8: 0,0,0,0
+17.6: 0,0,0,0
+18.4: 0,0,0,0
+19.2: 0,0,0,0
+20: 0,0,0,0
+20.8: 0,0,0,0
+21.6: 0,0,0,0
+22.4: 0,0,0,0
+23.2: 0,0,0,0
+Distance to Expected Destination: 3.377851
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 8.333458
+Trail No.:2 Ends
+User starts reading map for 2 seconds.
+Trail No.:3 Begins
+38.88: 0,0,0,0
+39.68: 0,0,0,0
+40.48: 0,0,0,0
+41.28: 0,0,0,0
+42.08: 0,0,0,0
+42.88: 0,0,0,0
+Distance to Expected Destination: 2.587986
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 5.251759
+Trail No.:3 Ends
+User starts reading map for 2 seconds.
+Trail No.:1 Begins
+53.94: 0,0,0,0
+54.74: 0,0,0,0
+55.54: 0,0,0,0
+56.34: 0,0,0,0
+Distance to Expected Destination: 1.687937
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 3.876633
+Trail No.:1 Ends
+Participant Name: Test
+Participant Gender: 1
+Participant ID: 1
+Test Date: 1
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:1 Begins
+11.34: 0,0,0,0
+12.14: 0,0,0,0
+12.94: 0,0,0,0
+13.74: 0,0,0,0
+14.54: 0,0,0,0
+15.34: 0,0,0,0
+Distance to Expected Destination: 1.260737
+Trail Result: Fail at object: Level1EndingPoint | Time Spent: 5.268208
+Trail No.:1 Ends
+Participant Name: Test
+Participant Gender: 1
+Participant ID: 1
+Test Date: 1
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:1 Begins
+19.06: 0,0,0,0
+19.86: 0,0,0,0
+Participant Name: Test
+Participant Gender: 1
+Participant ID: 1
+Test Date: 1
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:1 Begins
+10.58: 0,0,0,0
+11.38: 0,0,0,0
+Participant Name: Test
+Participant Gender: 1
+Participant ID: 1
+Test Date: 1
+Navi Mode: testing
+User starts reading map for 2 seconds.
+Trail No.:1 Begins
+19.36: 0,0,0,0
+20.16: 0,0,0,0
+20.96: 0,0,0,0
+21.76: 0,0,0,0
+22.56: 0,0,0,0
+23.36: 0,0,0,0
+24.16: 0,0,0,0
+24.96: 0,0,0,0
+25.76: 0,0,0,0
+26.56: 0,0,0,0
+27.36: 0,0,0,0
+28.16: 0,0,0,0
+28.96: 0,0,0,0
+29.76: 0,0,0,0
+30.56: 0,0,0,0
+31.36: 0,0,0,0
+32.16: 0,0,0,0
+32.96: 0,0,0,0
+33.76: 0,0,0,0
+34.56: 0,0,0,0
+35.36: 0,0,0,0
+36.16: 0,0,0,0
+36.96: 0,0,0,0
+37.76: 0,0,0,0
+38.56: 0,0,0,0
+39.36: 0,0,0,0
+40.16: 0,0,0,0
+40.96: 0,0,0,0
+41.76: 0,0,0,0
