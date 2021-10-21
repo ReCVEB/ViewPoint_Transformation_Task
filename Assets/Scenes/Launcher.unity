@@ -1008,6 +1008,53 @@ MonoBehaviour:
   - {fileID: 1604227671}
   - {fileID: 1175858516}
   - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
+  - {fileID: 2109791846}
   ArrowAvatar: {fileID: 9104265146415103914}
   InstructionText: {fileID: 9104265147219776214}
   FootPrint: {fileID: 1830618184108977247}
@@ -1081,7 +1128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MapViewCamera: {fileID: 1781670966}
   Map: {fileID: 400284075}
-  MapReadingTime: 2
+  MapReadingTime: 5
   StaticMap: 1
 --- !u!114 &1016021723
 MonoBehaviour:
