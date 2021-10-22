@@ -1128,7 +1128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MapViewCamera: {fileID: 1781670966}
   Map: {fileID: 400284075}
-  MapReadingTime: 5
+  MapReadingTime: 2
   StaticMap: 1
 --- !u!114 &1016021723
 MonoBehaviour:
@@ -9266,7 +9266,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9104265146404099264}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.005}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children: []
   m_Father: {fileID: 9104265147219776213}

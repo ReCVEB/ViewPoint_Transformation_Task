@@ -137,6 +137,7 @@ public class NaviManager : MonoBehaviour
             ControlledInit();
         } else
         {
+            Debug.Log("mapManager-Init");
             mapManager.Init();
         }
     }
@@ -152,14 +153,14 @@ public class NaviManager : MonoBehaviour
 
         //if tutorial
         if (CurrentMode == NaviMode.tutorial || CurrentMode == NaviMode.full){
-            nextLevel = 1; // be default learning level = 1
-            timeManager.SetTimeLimit(int.MaxValue); // for learning purpose, timeCount goes infinite.
+            nextLevel = 1; // tutorial level = 1
+            timeManager.SetTimeLimit(int.MaxValue); // timeCount goes infinite.
             PrepareLevel();
         }
         //if learning
         if (CurrentMode == NaviMode.learning){
             nextLevel = 2;
-            timeManager.SetTimeLimit(int.MaxValue); // for learning purpose, timeCount goes infinite.
+            timeManager.SetTimeLimit(int.MaxValue); // timeCount goes infinite.
             PrepareLevel();
         }
         //if training

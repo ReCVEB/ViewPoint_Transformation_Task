@@ -16,7 +16,7 @@ public class MapManager : MonoBehaviour
 
     [Header("Map Reading Parameters")]
     [Tooltip("MapReadingTime decides on how long (in seconds) user will be given to read the map before they start walk around.")]
-    [SerializeField] float MapReadingTime = 7.0f;
+    [SerializeField] float MapReadingTime = 2.0f;
     [Tooltip("Static Map means the map will NOT update the facing direction of the user in real time " +
         "(only showing the initial facing direction when user first see the map)")]
     [SerializeField] bool StaticMap = true;
@@ -49,6 +49,7 @@ public class MapManager : MonoBehaviour
     public void Init()
     {
         StartCoroutine(MapReading(MapReadingTime));
+        Debug.Log("Init: User starts reading map for " + MapReadingTime + " seconds.");
     }
 
     IEnumerator MapReading(float duration)
@@ -60,6 +61,7 @@ public class MapManager : MonoBehaviour
         {
             MapViewCamera.enabled = false;
         }
+        Debug.Log("User starts reading map for " + MapReadingTime + " seconds.");
         logManager.WriteCustomInfo("User starts reading map for " + MapReadingTime + " seconds.");
         yield return new WaitForSecondsRealtime(duration);
         Map.SetActive(false);
