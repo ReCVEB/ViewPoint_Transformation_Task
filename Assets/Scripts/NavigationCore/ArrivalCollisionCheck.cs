@@ -69,7 +69,11 @@ public class ArrivalCollisionCheck : MonoBehaviour {
                 }
                 Debug.Log(ArrivalPointName + " arrival triggered");
 
-                var dist = Vector3.Distance(target.transform.position, user.transform.position);
+                Vector3 user2dPos = user.transform.position;
+                user2dPos.y=0;
+                Vector3 target2dPos = target.transform.position;
+                target2dPos.y=0;
+                var dist = Vector3.Distance(target2dPos,user2dPos);
                 Debug.Log("Distance to Expected Destination: " + dist);
                 logManager.WriteCustomInfo("Distance to Expected Destination: " + dist);
                 if (dist <= ArrivalDistance)

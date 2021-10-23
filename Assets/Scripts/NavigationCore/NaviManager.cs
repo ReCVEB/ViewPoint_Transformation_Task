@@ -137,7 +137,7 @@ public class NaviManager : MonoBehaviour
             ControlledInit();
         } else
         {
-            Debug.Log("mapManager-Init");
+            //Debug.Log("mapManager-Init");
             mapManager.Init();
         }
     }

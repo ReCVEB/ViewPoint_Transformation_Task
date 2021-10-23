@@ -48,8 +48,8 @@ public class MapManager : MonoBehaviour
     }
     public void Init()
     {
-        StartCoroutine(MapReading(MapReadingTime));
         Debug.Log("Init: User starts reading map for " + MapReadingTime + " seconds.");
+        StartCoroutine(MapReading(MapReadingTime));
     }
 
     IEnumerator MapReading(float duration)
@@ -61,7 +61,7 @@ public class MapManager : MonoBehaviour
         {
             MapViewCamera.enabled = false;
         }
-        Debug.Log("User starts reading map for " + MapReadingTime + " seconds.");
+        //Debug.Log("User starts reading map for " + MapReadingTime + " seconds.");
         logManager.WriteCustomInfo("User starts reading map for " + MapReadingTime + " seconds.");
         yield return new WaitForSecondsRealtime(duration);
         Map.SetActive(false);
@@ -72,13 +72,16 @@ public class MapManager : MonoBehaviour
         }
         naviManager.ControlledInit();
     }
+
     public void RevealMap(float duration)
     {
         StartCoroutine(revealMap(duration));
     }
+
     IEnumerator revealMap(float duration)
     {
         Map.SetActive(true);
+        Debug.Log("User starts reading map for " + MapReadingTime + " seconds.");
         floorRenderer.enabled = false;
         yield return new WaitForSeconds(0.5f);
         if (StaticMap)

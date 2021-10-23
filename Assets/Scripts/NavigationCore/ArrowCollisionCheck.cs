@@ -95,10 +95,10 @@ public class ArrowCollisionCheck : MonoBehaviour
     private IEnumerator Trigger(float waitTime)
     {
         yield return new WaitForSecondsRealtime(waitTime / 3.0f);
-        Debug.Log("trigger1");
+        //Debug.Log("trigger1");
         fadeManager.FadeOut();
         yield return new WaitForSecondsRealtime(waitTime);
-		Debug.Log("trigger1:loadlevel()");
+		//Debug.Log("trigger1:loadlevel()");
         naviManager.LoadLevel();
         arrowManager.Reset();
         arrowManager.TriggerFootPrint();
