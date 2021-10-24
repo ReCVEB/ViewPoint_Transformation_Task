@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Author: Mengyu Chen, 2019
-//For questions: mengyuchenmat@gmail.com
+//Author: Mengyu Chen, 2019; Carol He, 2021
+//For questions: mengyuchenmat@gmail.com; carol.hcxy@gmail.com
 public class ArrowCollisionCheck : MonoBehaviour
 {
     
@@ -12,10 +12,6 @@ public class ArrowCollisionCheck : MonoBehaviour
     FadeManager fadeManager;
     InteractionManager interactionManager;
     TrackPlayer logManager;
-
-    [Header("Debug Options")]
-    [Tooltip("For debug purpose.")] 
-    [SerializeField] bool debug = false;
     
     //public Transform PlayerTransform;
 
@@ -54,13 +50,16 @@ public class ArrowCollisionCheck : MonoBehaviour
         else{
             facingRightDir = false;
         }
+
         if (controllerTouching && pinchClicked && facingRightDir)
         {
             // Debug.Log("arrow collision detected");
+            Debug.Log("facing+pinch+touching");
             transform.position = new Vector3(0, 100, 0);
             fadeManager.FadeIn();
             // determines how much time needed to wait after clicking trigger and seeing the map
-            StartCoroutine(Trigger(0.3f));
+            // Debug.Log("trigger0:loadlevel()");
+            StartCoroutine(Trigger(0.5f));
         }
 
     }
@@ -72,13 +71,15 @@ public class ArrowCollisionCheck : MonoBehaviour
                 // Debug.Log("arrow collision detected");
                 transform.position = new Vector3(0, 100, 0);
                 fadeManager.FadeIn();
-                StartCoroutine(Trigger(1.0f));
+                //Debug.Log("trigger1:loadlevel()");
+                StartCoroutine(Trigger(0.5f));
             }
         } else
         {
             if (collider.tag == "GameController")
             {
                 controllerTouching = true;
+                //Debug.Log("controllerTouching");
             }
         }
     }
@@ -89,6 +90,7 @@ public class ArrowCollisionCheck : MonoBehaviour
             if (collider.tag == "GameController")
             {
                 controllerTouching = false;
+                //Debug.Log("controllerTouchingFalse");
             }
         }
     }
@@ -98,7 +100,6 @@ public class ArrowCollisionCheck : MonoBehaviour
         //Debug.Log("trigger1");
         fadeManager.FadeOut();
         yield return new WaitForSecondsRealtime(waitTime);
-		//Debug.Log("trigger1:loadlevel()");
         naviManager.LoadLevel();
         arrowManager.Reset();
         arrowManager.TriggerFootPrint();
@@ -106,5 +107,6 @@ public class ArrowCollisionCheck : MonoBehaviour
     private void PinchClickDetected(bool state)
     {
         pinchClicked = state;
+        //Debug.Log("pinch"+state);
     }
 }

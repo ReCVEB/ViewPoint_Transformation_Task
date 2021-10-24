@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Author: Mengyu Chen, 2019
-//For questions: mengyuchenmat@gmail.com
+//Author: Mengyu Chen, 2019; Carol He, 2021
+//For questions: mengyuchenmat@gmail.com; carol.hcxy@gmail.com
 public class ArrivalCollisionCheck : MonoBehaviour {
 
 	NaviManager naviManager;
@@ -44,7 +44,7 @@ public class ArrivalCollisionCheck : MonoBehaviour {
         //}
 
         target = GameObject.FindGameObjectWithTag("Target");
-        user = FindObjectOfType<CameraMarker>().gameObject;
+        //user = FindObjectOfType<CameraMarker>().gameObject;
 
         //event subscription from interaction manager
         interactionManager.PinchClicked += PinchClickDetected;
@@ -69,7 +69,7 @@ public class ArrivalCollisionCheck : MonoBehaviour {
                 }
                 Debug.Log(ArrivalPointName + " arrival triggered");
 
-                Vector3 user2dPos = user.transform.position;
+                Vector3 user2dPos = logManager.PlayerTransform.position;
                 user2dPos.y=0;
                 Vector3 target2dPos = target.transform.position;
                 target2dPos.y=0;

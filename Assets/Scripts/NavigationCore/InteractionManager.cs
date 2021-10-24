@@ -4,8 +4,8 @@ using UnityEngine;
 using Valve.VR;
 using Valve.VR.InteractionSystem;
 
-//Author: Mengyu Chen, 2019
-//For questions: mengyuchenmat@gmail.com
+//Author: Mengyu Chen, 2019; Carol He, 2021
+//For questions: mengyuchenmat@gmail.com; carol.hcxy@gmail.com
 public class InteractionManager : MonoBehaviour
 {
     public static InteractionManager instance;
@@ -42,7 +42,7 @@ public class InteractionManager : MonoBehaviour
         if (RightHand == null || !RightHand.enabled) return;
         if (LeftHand == null || !LeftHand.enabled) return;
 
-        if (XRTK.ControllerStats.getPinch(RightHand))
+        if (XRTK.ControllerStats.getPinchDown(RightHand))
         {
             if (PinchClicked != null) PinchClicked(true);
         }
@@ -50,7 +50,7 @@ public class InteractionManager : MonoBehaviour
         {
             if (PinchClicked != null) PinchClicked(false);
         }
-        if (XRTK.ControllerStats.getPinch(LeftHand)){
+        if (XRTK.ControllerStats.getPinchDown(LeftHand)){
             if (PinchClicked != null) PinchClicked(true);
         }
         if (XRTK.ControllerStats.getPinchUp(LeftHand))

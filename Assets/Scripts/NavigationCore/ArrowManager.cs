@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-//Author: Mengyu Chen, 2019
-//For questions: mengyuchenmat@gmail.com
+//Author: Mengyu Chen, 2019; Carol He, 2021;
+//For questions: mengyuchenmat@gmail.com; carol.hcxy@gmail.com
 public class ArrowManager : MonoBehaviour
 {
     //public properties
@@ -49,9 +49,11 @@ public class ArrowManager : MonoBehaviour
             //FootPrint.transform.rotation = StartingPoints[arrowPosIndex].transform.rotation;
             
             // Debug.Log(ArrowAvatar.transform.position);
+            Debug.Log("<<<<<<<<<<Arrow activated");
             ArrowAvatar.SetActive(true);
             SetTextStatus(true);
             mText.text = "Please stand on the footprint and click your trigger.";
+
         } else {
             Debug.Log("Arrow Activation Failed");
         }
