@@ -42,7 +42,7 @@ public class InteractionManager : MonoBehaviour
         if (RightHand == null || !RightHand.enabled) return;
         if (LeftHand == null || !LeftHand.enabled) return;
 
-        if (XRTK.ControllerStats.getPinchDown(RightHand))
+        if (XRTK.ControllerStats.getPinch(RightHand))
         {
             if (PinchClicked != null) PinchClicked(true);
         }
@@ -50,7 +50,7 @@ public class InteractionManager : MonoBehaviour
         {
             if (PinchClicked != null) PinchClicked(false);
         }
-        if (XRTK.ControllerStats.getPinchDown(LeftHand)){
+        if (XRTK.ControllerStats.getPinch(LeftHand)){
             if (PinchClicked != null) PinchClicked(true);
         }
         if (XRTK.ControllerStats.getPinchUp(LeftHand))

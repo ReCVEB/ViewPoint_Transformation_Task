@@ -46,9 +46,11 @@ public class ArrowCollisionCheck : MonoBehaviour
         if (playerRot.eulerAngles.y < 5 || playerRot.eulerAngles.y > 355)
         {
             facingRightDir = true;
+            Debug.Log("facing");
         }
         else{
             facingRightDir = false;
+            Debug.Log("facingfalse");
         }
 
         if (controllerTouching && pinchClicked && facingRightDir)
@@ -79,7 +81,7 @@ public class ArrowCollisionCheck : MonoBehaviour
             if (collider.tag == "GameController")
             {
                 controllerTouching = true;
-                //Debug.Log("controllerTouching");
+                Debug.Log("controllerTouching");
             }
         }
     }
@@ -88,9 +90,10 @@ public class ArrowCollisionCheck : MonoBehaviour
         if (controllerConfirm)
         {
             if (collider.tag == "GameController")
+            //if (collider.tag == "Player")
             {
                 controllerTouching = false;
-                //Debug.Log("controllerTouchingFalse");
+                Debug.Log("controllerTouchingFalse");
             }
         }
     }
@@ -107,6 +110,6 @@ public class ArrowCollisionCheck : MonoBehaviour
     private void PinchClickDetected(bool state)
     {
         pinchClicked = state;
-        //Debug.Log("pinch"+state);
+        Debug.Log("pinch"+state);
     }
 }
