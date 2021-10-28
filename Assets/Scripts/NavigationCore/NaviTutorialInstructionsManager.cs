@@ -95,7 +95,7 @@ public class NaviTutorialInstructionsManager : MonoBehaviour
                         mapManager.RevealMap(4);
                     }
 
-                    logManager.WriteCustomInfo("Learning Tutorial: user starts reading map for 10 seconds");
+                    logManager.WriteCustomInfo("Learning Tutorial: user starts reading map for 4 seconds");
 
                     // the first two practice trials will have the targets be visible
                     if (phase == 2)

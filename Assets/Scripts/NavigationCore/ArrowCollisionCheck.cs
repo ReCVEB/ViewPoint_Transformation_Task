@@ -17,7 +17,8 @@ public class ArrowCollisionCheck : MonoBehaviour
 
     private bool controllerConfirm = false;
     private bool controllerTouching = false;
-    private bool pinchClicked = false;
+    //private bool pinchClicked = false;
+    private bool padClicked = false;
     private bool facingRightDir = false;
     void Start(){
         naviManager = NaviManager.instance;
@@ -29,11 +30,13 @@ public class ArrowCollisionCheck : MonoBehaviour
         controllerConfirm = interactionManager.ControllerConfirm;
 
         //event subscription from interaction manager
-        if (controllerConfirm) interactionManager.PinchClicked += PinchClickDetected;
+        //if (controllerConfirm) interactionManager.PinchClicked += PinchClickDetected;
+        if (controllerConfirm) interactionManager.PadClicked += PadClickDetected;
     }
     private void OnDestroy()
     {
-        if (controllerConfirm) interactionManager.PinchClicked -= PinchClickDetected;
+        //if (controllerConfirm) interactionManager.PinchClicked -= PinchClickDetected;
+        if (controllerConfirm) interactionManager.PadClicked -= PadClickDetected;
     }
     void Update(){
         if (controllerConfirm != interactionManager.ControllerConfirm)
@@ -52,11 +55,12 @@ public class ArrowCollisionCheck : MonoBehaviour
             facingRightDir = false;
             Debug.Log("facingfalse");
         }
-
-        if (controllerTouching && pinchClicked && facingRightDir)
+        
+        //if (controllerTouching && pinchClicked && facingRightDir) 
+        if (controllerTouching && padClicked && facingRightDir)
         {
             // Debug.Log("arrow collision detected");
-            Debug.Log("facing+pinch+touching");
+            Debug.Log("facing+padch+touching");
             transform.position = new Vector3(0, 100, 0);
             fadeManager.FadeIn();
             // determines how much time needed to wait after clicking trigger and seeing the map
@@ -107,9 +111,15 @@ public class ArrowCollisionCheck : MonoBehaviour
         arrowManager.Reset();
         arrowManager.TriggerFootPrint();
     }
-    private void PinchClickDetected(bool state)
+
+//    private void PinchClickDetected(bool state)
+//    {
+//        pinchClicked = state;
+//        //Debug.Log("pinch"+state);
+//    }
+    private void PadClickDetected(bool state)
     {
-        pinchClicked = state;
-        Debug.Log("pinch"+state);
+        padClicked = state;
+        //Debug.Log("pad"+state);
     }
 }
