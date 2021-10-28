@@ -25,7 +25,9 @@ public class InteractionManager : MonoBehaviour
     Player player;
 
     public delegate void PinchClickedEvent(bool state);
+    public delegate void PadClickedEvent(bool state);
     public PinchClickedEvent PinchClicked; //subscribed by ArrivalCollisionCheck, ArrowCollisionCheck, StartingConfirmation
+    public PadClickedEvent PadClicked;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -42,7 +44,7 @@ public class InteractionManager : MonoBehaviour
         if (RightHand == null || !RightHand.enabled) return;
         if (LeftHand == null || !LeftHand.enabled) return;
 
-        if (XRTK.ControllerStats.getPinchDown(RightHand))
+        if (XRTK.ControllerStats.getPinch(RightHand))
         {
             if (PinchClicked != null) PinchClicked(true);
         }
@@ -50,12 +52,28 @@ public class InteractionManager : MonoBehaviour
         {
             if (PinchClicked != null) PinchClicked(false);
         }
-        if (XRTK.ControllerStats.getPinchDown(LeftHand)){
+        if (XRTK.ControllerStats.getPinch(LeftHand)){
             if (PinchClicked != null) PinchClicked(true);
         }
         if (XRTK.ControllerStats.getPinchUp(LeftHand))
         {
             if (PinchClicked != null) PinchClicked(false);
+        }
+        if (XRTK.ControllerStats.getTouchPad(RightHand))
+        {
+            if (PadClicked != null) PadClicked(true);
+        }
+        if (XRTK.ControllerStats.getTouchPad_Up(RightHand))
+        {
+            if (PadClicked != null) PadClicked(false);
+        }
+        if (XRTK.ControllerStats.getTouchPad(LeftHand))
+        {
+            if (PadClicked != null) PadClicked(true);
+        }
+        if (XRTK.ControllerStats.getTouchPad_Up(LeftHand))
+        {
+            if (PadClicked != null) PadClicked(false);
         }
         if (ControllerMovement && Debug)
         {
