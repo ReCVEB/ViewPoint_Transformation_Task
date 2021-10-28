@@ -1572,7 +1572,7 @@ PrefabInstance:
     - target: {fileID: 4946991108561690120, guid: d7c04865b72c5544c8bec4ae636dd003,
         type: 3}
       propertyPath: ArrivalDistance
-      value: 0.5
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4946991108561690120, guid: d7c04865b72c5544c8bec4ae636dd003,
         type: 3}

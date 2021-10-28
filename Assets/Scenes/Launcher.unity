@@ -971,7 +971,7 @@ MonoBehaviour:
   RightHand: {fileID: 4392687108547005629}
   LeftHand: {fileID: 4392687108457268009}
   ControllerConfirm: 1
-  Debug: 0
+  Debug: 1
 --- !u!114 &1016021721
 MonoBehaviour:
   m_ObjectHideFlags: 0

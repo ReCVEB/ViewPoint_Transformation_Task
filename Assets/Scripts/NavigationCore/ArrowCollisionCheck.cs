@@ -49,11 +49,11 @@ public class ArrowCollisionCheck : MonoBehaviour
         if (playerRot.eulerAngles.y < 5 || playerRot.eulerAngles.y > 355)
         {
             facingRightDir = true;
-            Debug.Log("facing");
+            //Debug.Log("facing");
         }
         else{
             facingRightDir = false;
-            Debug.Log("facingfalse");
+            //Debug.Log("facingfalse");
         }
         
         //if (controllerTouching && pinchClicked && facingRightDir) 
