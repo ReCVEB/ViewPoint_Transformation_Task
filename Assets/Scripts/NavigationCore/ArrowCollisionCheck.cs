@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Author: Mengyu Chen, 2019
-//For questions: mengyuchenmat@gmail.com
+//Author: Mengyu Chen, 2019; Carol He, 2021
+//For questions: mengyuchenmat@gmail.com; carol.hcxy@gmail.com
 public class ArrowCollisionCheck : MonoBehaviour
 {
     
@@ -12,16 +12,13 @@ public class ArrowCollisionCheck : MonoBehaviour
     FadeManager fadeManager;
     InteractionManager interactionManager;
     TrackPlayer logManager;
-
-    [Header("Debug Options")]
-    [Tooltip("For debug purpose.")] 
-    [SerializeField] bool debug = false;
     
     //public Transform PlayerTransform;
 
     private bool controllerConfirm = false;
     private bool controllerTouching = false;
-    private bool pinchClicked = false;
+    //private bool pinchClicked = false;
+    private bool padClicked = false;
     private bool facingRightDir = false;
     void Start(){
         naviManager = NaviManager.instance;
@@ -33,11 +30,13 @@ public class ArrowCollisionCheck : MonoBehaviour
         controllerConfirm = interactionManager.ControllerConfirm;
 
         //event subscription from interaction manager
-        if (controllerConfirm) interactionManager.PinchClicked += PinchClickDetected;
+        //if (controllerConfirm) interactionManager.PinchClicked += PinchClickDetected;
+        if (controllerConfirm) interactionManager.PadClicked += PadClickDetected;
     }
     private void OnDestroy()
     {
-        if (controllerConfirm) interactionManager.PinchClicked -= PinchClickDetected;
+        //if (controllerConfirm) interactionManager.PinchClicked -= PinchClickDetected;
+        if (controllerConfirm) interactionManager.PadClicked -= PadClickDetected;
     }
     void Update(){
         if (controllerConfirm != interactionManager.ControllerConfirm)
@@ -50,17 +49,43 @@ public class ArrowCollisionCheck : MonoBehaviour
         if (playerRot.eulerAngles.y < 5 || playerRot.eulerAngles.y > 355)
         {
             facingRightDir = true;
+            //Debug.Log("facing");
         }
         else{
             facingRightDir = false;
+            //Debug.Log("facingfalse");
         }
-        if (controllerTouching && pinchClicked && facingRightDir)
-        {
-            // Debug.Log("arrow collision detected");
+        
+        //if (controllerTouching && pinchClicked && facingRightDir) 
+        // if (controllerTouching && padClicked && facingRightDir)
+        // {
+        //     // Debug.Log("arrow collision detected");
+        //     Debug.Log("facing+padch+touching");
+        //     transform.position = new Vector3(0, 100, 0);
+        //     fadeManager.FadeIn();
+        //     // determines how much time needed to wait after clicking trigger and seeing the map
+        //     // Debug.Log("trigger0:loadlevel()");
+        //     StartCoroutine(Trigger(0.5f));
+        // }
+
+
+        if (controllerTouching && padClicked && facingRightDir) {
             transform.position = new Vector3(0, 100, 0);
+            TextController.Instance.setText(0, "Loading...");
             fadeManager.FadeIn();
-            // determines how much time needed to wait after clicking trigger and seeing the map
-            StartCoroutine(Trigger(0.3f));
+            StartCoroutine(Trigger(0.5f));
+        }
+
+
+        if (controllerTouching && facingRightDir )
+            TextController.Instance.setText(0, "Ready to press the trackpad");
+        else if (!padClicked) {
+            string prompt = "";
+            if (!controllerTouching)
+                prompt += "Please reposition yourself";
+            else if (!facingRightDir)
+                prompt += "Please face forward";
+            TextController.Instance.setText(0, prompt);
         }
 
     }
@@ -72,13 +97,15 @@ public class ArrowCollisionCheck : MonoBehaviour
                 // Debug.Log("arrow collision detected");
                 transform.position = new Vector3(0, 100, 0);
                 fadeManager.FadeIn();
-                StartCoroutine(Trigger(1.0f));
+                //Debug.Log("trigger1:loadlevel()");
+                StartCoroutine(Trigger(0.5f));
             }
         } else
         {
             if (collider.tag == "GameController")
             {
                 controllerTouching = true;
+                Debug.Log("controllerTouching");
             }
         }
     }
@@ -87,22 +114,32 @@ public class ArrowCollisionCheck : MonoBehaviour
         if (controllerConfirm)
         {
             if (collider.tag == "GameController")
+            //if (collider.tag == "Player")
             {
                 controllerTouching = false;
+                Debug.Log("controllerTouchingFalse");
             }
         }
     }
     private IEnumerator Trigger(float waitTime)
     {
         yield return new WaitForSecondsRealtime(waitTime / 3.0f);
+        //Debug.Log("trigger1");
         fadeManager.FadeOut();
         yield return new WaitForSecondsRealtime(waitTime);
-		naviManager.LoadLevel();
+        naviManager.LoadLevel();
         arrowManager.Reset();
         arrowManager.TriggerFootPrint();
     }
-    private void PinchClickDetected(bool state)
+
+//    private void PinchClickDetected(bool state)
+//    {
+//        pinchClicked = state;
+//        //Debug.Log("pinch"+state);
+//    }
+    private void PadClickDetected(bool state)
     {
-        pinchClicked = state;
+        padClicked = state;
+        //Debug.Log("pad"+state);
     }
 }

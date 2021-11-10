@@ -147,7 +147,7 @@ public class TrackPlayer : MonoBehaviour
         if (streamWriter == null){
             Debug.LogError("No stream writer found.");
         }
-        streamWriter.WriteLine("Trail No.:" + (naviManager.CurrentLevel - 2) + " Begins");
+        streamWriter.WriteLine("Trial No.:" + (naviManager.CurrentLevel - 2) + " Begins");
     }
     //call by starting confirmation
     public void WriteLevelStartingInfo(string objectname)
@@ -180,9 +180,9 @@ public class TrackPlayer : MonoBehaviour
             {
                 message = "Fail at object: " + objectName;
             }
-            streamWriter.WriteLine("Trail Result: " + message + " | Time Spent: " + timeSpent);
+            streamWriter.WriteLine("Trial Result: " + message + " | Time Spent: " + timeSpent);
 
-            streamWriter.WriteLine("Trail No.:" + (naviManager.CurrentLevel - 2) + " Ends");
+            streamWriter.WriteLine("Trial No.:" + (naviManager.CurrentLevel - 2) + " Ends");
         }
         //write a csv file at the end of each navi and reset row data
         if (CSVOutput) WriteCSVData();

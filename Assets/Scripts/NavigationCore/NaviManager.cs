@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System;
 using System.Linq;
 using UnityEngine;
-//Author: Mengyu Chen, 2019
-//For questions: mengyuchenmat@gmail.com
+//Author: Mengyu Chen, 2019; Carol He, 2021
+//For questions: mengyuchenmat@gmail.com; carol.hcxy@gmail.com
 public enum NaviMode : int{tutorial, learning, testing, full};
 public class NaviManager : MonoBehaviour
 {
@@ -77,7 +77,7 @@ public class NaviManager : MonoBehaviour
         levelManager.LevelCheck(); //check level and unload existing level
         CurrentLevel = nextLevel; // 1 -> training scene
         LevelStartConfirmed = false; //prepared but not confirmed, need user active confirmation later
-        arrowManager.Reset();
+        //arrowManager.Reset();
         //targetManager.Reset();
         fadeManager.ResetFadeOut();
         if (missionComplete == false){
@@ -88,11 +88,12 @@ public class NaviManager : MonoBehaviour
             } else {
                 Debug.Log("Preparing testing level:" + (CurrentLevel - 2));
             }
+
             arrowManager.Activate(CurrentLevel - 1);
         } else {
             timeManager.WriteTimeDisplay("Mission Complete");
             arrowManager.SetTextContent("Mission Complete. Thank you!");
-            arrowManager.InstructionText.transform.position = new Vector3(0,0.5f,0);
+            arrowManager.InstructionText.transform.position = new Vector3(0,1.3f,0);
             arrowManager.InstructionText.SetActive(true);
         }
     }
@@ -137,6 +138,7 @@ public class NaviManager : MonoBehaviour
             ControlledInit();
         } else
         {
+            //Debug.Log("mapManager-Init");
             mapManager.Init();
         }
     }
@@ -152,14 +154,14 @@ public class NaviManager : MonoBehaviour
 
         //if tutorial
         if (CurrentMode == NaviMode.tutorial || CurrentMode == NaviMode.full){
-            nextLevel = 1; // be default learning level = 1
-            timeManager.SetTimeLimit(int.MaxValue); // for learning purpose, timeCount goes infinite.
+            nextLevel = 1; // tutorial level = 1
+            timeManager.SetTimeLimit(int.MaxValue); // timeCount goes infinite.
             PrepareLevel();
         }
         //if learning
         if (CurrentMode == NaviMode.learning){
             nextLevel = 2;
-            timeManager.SetTimeLimit(int.MaxValue); // for learning purpose, timeCount goes infinite.
+            timeManager.SetTimeLimit(int.MaxValue); // timeCount goes infinite.
             PrepareLevel();
         }
         //if training

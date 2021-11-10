@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//Author: Mengyu Chen, 2018
+//Author: Mengyu Chen, 2018; Carol He, 2021
 //For questions: mengyuchenmat@gmail.com
 public class Launcher : MonoBehaviour
 {
@@ -18,8 +18,8 @@ public class Launcher : MonoBehaviour
         if (Application.isEditor) {
 			for (int i = 0; i < SceneManager.sceneCount; i++) {
 				Scene loadedScene = SceneManager.GetSceneAt(i);
-                //make sure level contains word Maze
-				if (loadedScene.name.Contains("Maze")) {
+                //make sure level contains word Level
+				if (loadedScene.name.Contains("Level")) {
 					SceneManager.SetActiveScene(loadedScene);
 					loadedLevelBuildIndex = loadedScene.buildIndex;
 					return;

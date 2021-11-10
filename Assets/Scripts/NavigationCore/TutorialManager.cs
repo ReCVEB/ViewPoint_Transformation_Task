@@ -12,9 +12,9 @@ public class TutorialManager : MonoBehaviour
     [Tooltip("The arrival sphere will appear after user successfully test the controller feature")]
     [SerializeField] GameObject ArrivalSphere;
     [Tooltip("Setup Message for clicking tutorial")] 
-    [SerializeField] string MessageBefore = "Please Click the Bubbles with your controller upon touching them.";
+    [SerializeField] string MessageBefore = "Please Click the Bubbles with your trigger upon touching them.";
     [Tooltip("Setup Message for next phase")]
-    [SerializeField] string MessageAfter = "Great. Please walk to the Sphere and click it to proceed to next level.";
+    [SerializeField] string MessageAfter = "Great. Please walk to the Sphere and trigger it to end this tutorial.";
     [Header("Reference")]
     [Tooltip("Reference to instruction text.")]
     [SerializeField] TextMeshPro InstructionText;

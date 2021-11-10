@@ -22,8 +22,8 @@ public class LevelLauncher : MonoBehaviour
         if (Application.isEditor) {
 			for (int i = 0; i < SceneManager.sceneCount; i++) {
 				Scene loadedScene = SceneManager.GetSceneAt(i);
-                //make sure level contains word Maze
-				if (loadedScene.name.Contains("Maze")) {
+                //make sure level contains word Level
+				if (loadedScene.name.Contains("Level")) {
 					SceneManager.SetActiveScene(loadedScene);
 					loadedLevelBuildIndex = loadedScene.buildIndex;
 					return;

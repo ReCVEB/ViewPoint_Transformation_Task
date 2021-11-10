@@ -4,8 +4,8 @@ using UnityEngine;
 using Valve.VR;
 using Valve.VR.InteractionSystem;
 
-//Author: Mengyu Chen, 2019
-//For questions: mengyuchenmat@gmail.com
+//Author: Mengyu Chen, 2019; Carol He, 2021
+//For questions: mengyuchenmat@gmail.com; carol.hcxy@gmail.com
 public class InteractionManager : MonoBehaviour
 {
     public static InteractionManager instance;
@@ -25,7 +25,9 @@ public class InteractionManager : MonoBehaviour
     Player player;
 
     public delegate void PinchClickedEvent(bool state);
+    public delegate void PadClickedEvent(bool state);
     public PinchClickedEvent PinchClicked; //subscribed by ArrivalCollisionCheck, ArrowCollisionCheck, StartingConfirmation
+    public PadClickedEvent PadClicked;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -56,6 +58,22 @@ public class InteractionManager : MonoBehaviour
         if (XRTK.ControllerStats.getPinchUp(LeftHand))
         {
             if (PinchClicked != null) PinchClicked(false);
+        }
+        if (XRTK.ControllerStats.getTouchPad(RightHand))
+        {
+            if (PadClicked != null) PadClicked(true);
+        }
+        if (XRTK.ControllerStats.getTouchPad_Up(RightHand))
+        {
+            if (PadClicked != null) PadClicked(false);
+        }
+        if (XRTK.ControllerStats.getTouchPad(LeftHand))
+        {
+            if (PadClicked != null) PadClicked(true);
+        }
+        if (XRTK.ControllerStats.getTouchPad_Up(LeftHand))
+        {
+            if (PadClicked != null) PadClicked(false);
         }
         if (ControllerMovement && Debug)
         {
