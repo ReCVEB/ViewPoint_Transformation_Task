@@ -1,5 +1,0 @@
-Participant Name: Scotter
-Participant Gender: M
-Participant ID: 3568
-Test Date: 0907
-Navi Mode: testing

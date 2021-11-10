@@ -57,15 +57,35 @@ public class ArrowCollisionCheck : MonoBehaviour
         }
         
         //if (controllerTouching && pinchClicked && facingRightDir) 
-        if (controllerTouching && padClicked && facingRightDir)
-        {
-            // Debug.Log("arrow collision detected");
-            Debug.Log("facing+padch+touching");
+        // if (controllerTouching && padClicked && facingRightDir)
+        // {
+        //     // Debug.Log("arrow collision detected");
+        //     Debug.Log("facing+padch+touching");
+        //     transform.position = new Vector3(0, 100, 0);
+        //     fadeManager.FadeIn();
+        //     // determines how much time needed to wait after clicking trigger and seeing the map
+        //     // Debug.Log("trigger0:loadlevel()");
+        //     StartCoroutine(Trigger(0.5f));
+        // }
+
+
+        if (controllerTouching && padClicked && facingRightDir) {
             transform.position = new Vector3(0, 100, 0);
+            TextController.Instance.setText(0, "Loading...");
             fadeManager.FadeIn();
-            // determines how much time needed to wait after clicking trigger and seeing the map
-            // Debug.Log("trigger0:loadlevel()");
             StartCoroutine(Trigger(0.5f));
+        }
+
+
+        if (controllerTouching && facingRightDir )
+            TextController.Instance.setText(0, "Ready to press the trackpad");
+        else if (!padClicked) {
+            string prompt = "";
+            if (!controllerTouching)
+                prompt += "Please reposition yourself";
+            else if (!facingRightDir)
+                prompt += "Please face forward";
+            TextController.Instance.setText(0, prompt);
         }
 
     }

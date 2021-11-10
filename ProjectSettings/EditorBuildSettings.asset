@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Launcher_BACKUP.unity
+    guid: e68e52a67dec8034c960f1fa5bc529d3
   - enabled: 1
     path: Assets/Scenes/Launcher.unity
-    guid: e68e52a67dec8034c960f1fa5bc529d3
+    guid: a7c010ee098d56544a24e30e6f54a2c9
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: b9364d5d914f00b43a6941f6206c3e42
