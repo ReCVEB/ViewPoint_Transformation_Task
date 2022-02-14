@@ -22,13 +22,21 @@ public class NaviManager : MonoBehaviour
     [HideInInspector]public int CurrentLevel;
     [HideInInspector] public bool LevelStartConfirmed = false;
 
+    public int levelPassed = 0;
+    public int trialNumber = 0;
     [Header("Random Level Loader")]
     private int levelcount = 50;
     private int testPhaseStartingIndex = 2;
     private int nextLevel;
     private bool missionComplete = false;
-    // private int maxCount = 5;
+
     private HashSet<int> candidates = new HashSet<int>();
+    public TrialOrderInfo trialOrderInfo = new TrialOrderInfo();
+
+    private bool isRestoring = false;
+
+    [SerializeField] string TrialOrderInfoFilename = "trialOrderInfo.json";
+
     System.Random random = new System.Random();
 
     // [Header("Space Visibility")]
@@ -53,6 +61,14 @@ public class NaviManager : MonoBehaviour
 
         //the total level count depends on how many starting points
         levelcount = arrowManager.StartingPoints.Length;
+        int[] TrialLevels = new int[levelcount-testPhaseStartingIndex];
+        for (int i = 0; i<levelcount-testPhaseStartingIndex; i++)
+        {
+            TrialLevels[i] = i+1;
+        }
+
+        trialNumber = levelcount - testPhaseStartingIndex;
+        GenerateRandomSequence(trialNumber);
         
     }
 
@@ -87,6 +103,7 @@ public class NaviManager : MonoBehaviour
                 Debug.Log("Preparing learning level");
             } else {
                 Debug.Log("Preparing testing level:" + (CurrentLevel - 2));
+                levelPassed++;
             }
 
             arrowManager.Activate(CurrentLevel - 1);
@@ -173,45 +190,105 @@ public class NaviManager : MonoBehaviour
     //a string can be provided to skip certain levels, use comma to separate
     public void SkipLevels(string levels)
     {
-        int[] skipLevels = Array.ConvertAll(levels.Split(','), int.Parse);
-        for (int i = 0; i < skipLevels.Length; i++)
+        int count = Int32.Parse(levels);
+        for (int i = 0; i < count; i++)
         {
-            candidates.Add(skipLevels[i] + 1);
-            Debug.Log("Level Skipped " + (skipLevels[i] + 1));
+            candidates.Add(trialOrderInfo.sequence[i]);
+            Debug.Log("Level Skipped " + trialOrderInfo.sequence[i]);
         }
+        trialOrderInfo.pos = count;
         Debug.Log("Remaining " + (levelcount - testPhaseStartingIndex - candidates.Count));
     }
-    private void GetNextLevel(int min){
+    // private void GetNextLevel(int min){
+    //     //check if it's done
+    //     if (candidates.Count == levelcount - min || CurrentMode == NaviMode.tutorial){
+    //         missionComplete = true;
+    //         ResetManagers(); // finishes
+    //         Debug.Log("Mission Complete");
+    //         return;
+    //     }
+    //     //check if its moving to learning phase
+    //     if (CurrentMode == NaviMode.full && CurrentLevel == 1){
+    //         nextLevel = 2;
+    //         timeManager.SetTimeLimit(int.MaxValue);
+    //         Debug.Log("Tutorial done. Move to next Learning phase");
+    //         return;
+    //     }
+        
+    //     //continue on with learning phase
+    //     // if (CurrentLevel >= 2 && CurrentLevel < 5)
+    //     // {
+    //     //     nextLevel = CurrentLevel += 1;
+    //     // }
+    //     while (candidates.Count != levelcount - min){
+    //         int randNum = UnityEngine.Random.Range(min, levelcount);
+    //         //Debug.Log(randNum + " = generated");
+    //         if (candidates.Add(randNum))
+    //         {
+    //             nextLevel = randNum + 1;
+    //             Debug.Log("Level " + (nextLevel - 2) + " selected.");
+    //             break;
+    //         }
+    //     }
+    // }
+
+    private void GetNextLevel(int min)
+    {
         //check if it's done
-        if (candidates.Count == levelcount - min || (CurrentMode == NaviMode.learning) || CurrentMode == NaviMode.tutorial){
+        //if (candidates.Count == levelcount - min || CurrentMode == MazeMode.learning || CurrentMode == MazeMode.tutorial){
+        if (candidates.Count == levelcount - min || CurrentMode == NaviMode.tutorial){
             missionComplete = true;
             ResetManagers(); // finishes
-            Debug.Log("Mission Complete");
+            //Debug.Log("Mission Complete");
+            Application.Quit();
             return;
         }
         //check if its moving to learning phase
         if (CurrentMode == NaviMode.full && CurrentLevel == 1){
             nextLevel = 2;
             timeManager.SetTimeLimit(int.MaxValue);
-            Debug.Log("Tutorial done. Move to next Learning phase");
+            //Debug.Log("Tutorial done. Move to next Learning phase");
             return;
         }
-        
         //continue on with learning phase
-        // if (CurrentLevel >= 2 && CurrentLevel < 5)
-        // {
-        //     nextLevel = CurrentLevel += 1;
-        // }
         while (candidates.Count != levelcount - min){
-            int randNum = UnityEngine.Random.Range(min, levelcount);
-            //Debug.Log(randNum + " = generated");
-            if (candidates.Add(randNum))
+            if (candidates.Add(trialOrderInfo.getCurrentTrialNumber()))
             {
-                nextLevel = randNum + 1;
+                nextLevel = trialOrderInfo.getCurrentTrialNumber();
+                SaveThisRun();
+                trialOrderInfo.pos++;
                 Debug.Log("Level " + (nextLevel - 2) + " selected.");
                 break;
             }
         }
+    }
+        private void GenerateRandomSequence(int size)
+    {
+        System.Random random = new System.Random();
+        trialOrderInfo.sequence = new List<int>(Enumerable.Range(3, size).ToArray().OrderBy(x => random.Next()).ToArray());
+
+        String sequneceString = "";
+       foreach (int item in trialOrderInfo.sequence)
+       {
+           sequneceString += item + ",";
+       }
+        Debug.Log(sequneceString);
+
+    }
+
+    public void RestoreLastRun()
+    {
+        trialOrderInfo = ResumeLog.readTrialOrderInfoFromJSON(TrialOrderInfoFilename);
+        for (int i = 0; i != trialOrderInfo.pos; ++i)
+        {
+            candidates.Add(trialOrderInfo.sequence[i]);
+        }
+        Debug.Log("restore");
+    }
+
+    private void SaveThisRun()
+    {
+        ResumeLog.writeTrialOrderInfoToJson(TrialOrderInfoFilename, trialOrderInfo);
     }
 
 }
