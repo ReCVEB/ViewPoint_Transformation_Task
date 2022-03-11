@@ -30,10 +30,10 @@ EditorBuildSettings:
     path: Assets/Scenes/newtrials/Level4.unity
     guid: 9e671d1a29de2c24db52654e96a16b1e
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level5.unity
+    path: Assets/Scenes/newtrials/Level1.unity
     guid: a2df35d05e6fced4ca1bd7e4b9f66e0f
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level6.unity
+    path: Assets/Scenes/newtrials/Level2.unity
     guid: 11b5b87716423064280c5ba7cf7a0171
   - enabled: 1
     path: Assets/Scenes/newtrials/Level7.unity
