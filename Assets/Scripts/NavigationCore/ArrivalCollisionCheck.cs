@@ -13,10 +13,10 @@ public class ArrivalCollisionCheck : MonoBehaviour {
 
     [Header("Arrival Settings")]
     [Tooltip("Setup the arrival point name. It left empty, its object name will be used.")]
-    [SerializeField] string ArrivalPointName = "";
+    [SerializeField] public string ArrivalPointName = "";
     [Tooltip("Distance threshold that decides how close the user need to be with the target can count as a successful trial. " +
         "For example, if the value is 0.5 then the user needs to be inside the 0.5 meter radius of the target object to be considered a successful trial")]
-    [SerializeField] float CorrectThreshold = 0.8f;
+    [SerializeField] public float CorrectThreshold = 0.8f;
     //[Tooltip("Typically, we only allow one true target, which will result in a successful trial.")]
     //[SerializeField] bool TrueTarget = false;
     //[Tooltip("A starting object may not be the arrival target.")] 

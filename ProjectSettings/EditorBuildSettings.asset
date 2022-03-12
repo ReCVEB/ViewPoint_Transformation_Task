@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Launcher_BACKUP.unity
-    guid: e68e52a67dec8034c960f1fa5bc529d3
   - enabled: 1
     path: Assets/Scenes/Launcher.unity
     guid: a7c010ee098d56544a24e30e6f54a2c9
@@ -18,147 +15,111 @@ EditorBuildSettings:
     path: Assets/Scenes/Learning.unity
     guid: 54d6977c9b76b654b9e2bcdfb28fa215
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level1.unity
-    guid: 289ae768c8f05d04b84a3aae77229a21
+    path: Assets/Scenes/TrialsV2/Trial1.unity
+    guid: da613df496a63134189008a152063746
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level2.unity
-    guid: 6ea89a08ff8fe5e48a4d4f622107698b
+    path: Assets/Scenes/TrialsV2/Trial2.unity
+    guid: ff48af48852e72f40988195ac6c0ce88
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level3.unity
-    guid: de3e443ad27149644b0ed47937e48891
+    path: Assets/Scenes/TrialsV2/Trial3.unity
+    guid: 7277002b474ea9c45945cbf558fabd98
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level4.unity
-    guid: 9e671d1a29de2c24db52654e96a16b1e
+    path: Assets/Scenes/TrialsV2/Trial4.unity
+    guid: 60169c5184c0b694f99b5b6b8f70d3b1
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level1.unity
-    guid: a2df35d05e6fced4ca1bd7e4b9f66e0f
+    path: Assets/Scenes/TrialsV2/Trial5.unity
+    guid: 57d699fce502ba5459dfe34d1d211ef3
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level2.unity
-    guid: 11b5b87716423064280c5ba7cf7a0171
+    path: Assets/Scenes/TrialsV2/Trial6.unity
+    guid: 30deaeeb8c3bc4a4b86207030c13975d
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level7.unity
-    guid: 9fe648f93e3ebfc4ebca996a1314f2e0
+    path: Assets/Scenes/TrialsV2/Trial7.unity
+    guid: f801e894cda1315499541a953e08bdb6
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level8.unity
-    guid: 37cdf1ee63c0eb348b6849eaa3088c4d
+    path: Assets/Scenes/TrialsV2/Trial8.unity
+    guid: db3353cc9c7d1c54aaa8fee148217b92
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level9.unity
-    guid: 1ae65a4ef3722464c99596d5eda573f0
+    path: Assets/Scenes/TrialsV2/Trial9.unity
+    guid: fa5c0fc3d8fe6cd4badfc6ecf7da1749
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level10.unity
-    guid: 6c7b68a03ffc1484bb61991069dfa044
+    path: Assets/Scenes/TrialsV2/Trial10.unity
+    guid: 9d398c84994f92f4aaa794a7bc359aee
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level11.unity
-    guid: 6345f7d469dd62b4188caf97f413530d
+    path: Assets/Scenes/TrialsV2/Trial11.unity
+    guid: 9849b1d6297a3ff48898c75b9bfeb5a9
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level12.unity
-    guid: 3ef5616ec0297e147a78e692ca8dcc87
+    path: Assets/Scenes/TrialsV2/Trial12.unity
+    guid: 40d7e139aa85c894996a5f6c7489b350
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level13.unity
-    guid: a28547ce16def8c4ba2b724936687e36
+    path: Assets/Scenes/TrialsV2/Trial13.unity
+    guid: fc9f9c0dd1b40df4abf18760418f7eed
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level14.unity
-    guid: e43169db706ba4f4aaddcd8ffeb7aeac
+    path: Assets/Scenes/TrialsV2/Trial14.unity
+    guid: 5228a249e26a693408e0218a486caa9c
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level15.unity
-    guid: e7da96abdc74d90459f2a5c7d4454d76
+    path: Assets/Scenes/TrialsV2/Trial15.unity
+    guid: f8fbe3ba1158d0f40a8a642890a5111e
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level16.unity
-    guid: d227eededc05ebf458085090e36f6ff7
+    path: Assets/Scenes/TrialsV2/Trial16.unity
+    guid: 37fa8f50d97e1f44a8b22b565950390b
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level17.unity
-    guid: 1db98e32727dfbc46a1e5ec58e7864b5
+    path: Assets/Scenes/TrialsV2/Trial17.unity
+    guid: 9a7e36706e9cd9e40a8c9b9258d7b9be
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level18.unity
-    guid: f094e7db983faf548839cd17fe2b4883
+    path: Assets/Scenes/TrialsV2/Trial18.unity
+    guid: ec86ef7cbea8b22458b5a704ededf403
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level19.unity
-    guid: 5c468795fe1de0d4eb32d07fb48fc90c
+    path: Assets/Scenes/TrialsV2/Trial19.unity
+    guid: b6aaf3af8a4f03944afd0575273f21f3
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level20.unity
-    guid: 56e02161145e6cd4e9817935c8a063cc
+    path: Assets/Scenes/TrialsV2/Trial20.unity
+    guid: e7f7aba9966a5d647b12c19e732c68a3
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level21.unity
-    guid: 8960582df64be0240b81b5579fdb905b
+    path: Assets/Scenes/TrialsV2/Trial21.unity
+    guid: 60c3120d5a9aabd4c9d0fe263ec80544
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level22.unity
-    guid: 0545250b151c82841a035e98d3a8a4c7
+    path: Assets/Scenes/TrialsV2/Trial22.unity
+    guid: 26d47f28dbbc4cd4f84b39c4f569c8a5
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level23.unity
-    guid: d45b800816ba55442aa1279508af91ba
+    path: Assets/Scenes/TrialsV2/Trial23.unity
+    guid: b62cdd210aa84574bbc60441459c7902
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level24.unity
-    guid: d183eb4f5d287a842ad72e41cdf10df6
+    path: Assets/Scenes/TrialsV2/Trial24.unity
+    guid: 1e160a62dcba37542adc572706d80031
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level25.unity
-    guid: 9b1bb8de8fc34b940adb80750ee86342
+    path: Assets/Scenes/TrialsV2/Trial25.unity
+    guid: e58ed0fb5a7efd24a8abb15dd1d9375d
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level26.unity
-    guid: a81d0eef551175748a6a8824201c6e9a
+    path: Assets/Scenes/TrialsV2/Trial26.unity
+    guid: a5230ff8be6b32c4abf29012f2166d4a
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level27.unity
-    guid: c54cda9f15f497745a581a7051d604b5
+    path: Assets/Scenes/TrialsV2/Trial27.unity
+    guid: d9b7ab84232700c43ad341c05801d085
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level28.unity
-    guid: b5b8c5dcf5a6b804fb36afd31cdee2a2
+    path: Assets/Scenes/TrialsV2/Trial28.unity
+    guid: 171638436e4aa6549a5dd1052f787042
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level29.unity
-    guid: 2da6b1a3b7f5cb949a123ab5a08a1f4c
+    path: Assets/Scenes/TrialsV2/Trial29.unity
+    guid: a3e37690136e31c469d099f4090ab355
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level30.unity
-    guid: be2361944f8be664c9b497c4bc27cfaa
+    path: Assets/Scenes/TrialsV2/Trial30.unity
+    guid: fbee8baa890a1334598aa7a8dfa474ff
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level31.unity
-    guid: 3aa9ff44aa7d9ec478308b8404711d48
+    path: Assets/Scenes/TrialsV2/Trial31.unity
+    guid: 84d7af9e1a1d99243af1b643e539a678
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level32.unity
-    guid: 87fb9c9c02ebf524cb1d4a47bf8562ab
+    path: Assets/Scenes/TrialsV2/Trial32.unity
+    guid: b6a989f82db5638409c28a8781f50596
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level33.unity
-    guid: 601ecf79674885b48a9bac0e257a57ee
+    path: Assets/Scenes/TrialsV2/Trial33.unity
+    guid: 1f6c9f06f5e03164d9202d288be23723
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level34.unity
-    guid: 67f95983897c1a34a95b74326ee0ec37
+    path: Assets/Scenes/TrialsV2/Trial34.unity
+    guid: ec96cf4ec41409946968313627b7af15
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level35.unity
-    guid: c643c9cbec00fa04f9df7f77207cffac
+    path: Assets/Scenes/TrialsV2/Trial35.unity
+    guid: e48dadef79aa2bb4f8bb347101346135
   - enabled: 1
-    path: Assets/Scenes/newtrials/Level36.unity
-    guid: 4b6aaf5f7624f9d4fad316dd9ec468a3
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level37.unity
-    guid: d52139096b101e846ba3fb64d2718270
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level38.unity
-    guid: 086b5a5a55d17274a8ba9b5cd640b4f7
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level39.unity
-    guid: 627e10a3b0fe13243963420500adcf9d
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level40.unity
-    guid: ec6be56d31ee8bb4181f2ca6c236bde1
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level41.unity
-    guid: 5e264a4dca794a641a50e5c146469764
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level42.unity
-    guid: 0f64fac491d25fe4ba473942c6dc4712
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level43.unity
-    guid: 58d8a021986fc37418673d69d9208c25
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level44.unity
-    guid: 515b4e17f8855a544a03185687381f83
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level45.unity
-    guid: 1c938cfe30feb1b4383614d5f9059a58
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level46.unity
-    guid: 3257548c37b8bb642ba9f51159950a14
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level47.unity
-    guid: 92f0af6013f2df042a498f6c2812ad70
-  - enabled: 1
-    path: Assets/Scenes/newtrials/Level48.unity
-    guid: 32d04cb97a93f3c4e880dc67ad0fbecf
+    path: Assets/Scenes/TrialsV2/Trial36.unity
+    guid: 7312d2a0dfd01b2499828ba424a591fe
   m_configObjects: {}

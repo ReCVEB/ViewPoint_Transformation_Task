@@ -283,6 +283,7 @@ public class NaviManager : MonoBehaviour
         {
             candidates.Add(trialOrderInfo.sequence[i]);
         }
+        trialNumber -= candidates.Count;
         Debug.Log("restore");
     }
 
