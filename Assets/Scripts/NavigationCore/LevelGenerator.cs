@@ -23,7 +23,7 @@ public class LevelGenerator : EditorWindow {
         public float travelDirection;
 
         public override string ToString() {
-            return $"{trialId},{sceneId},{perspectiveShift},{relativeDirection},{travelDistance},{travelDirection}";
+            return $"{trialId},{perspectiveShift},{relativeDirection},{travelDistance},{travelDirection}";
         }
     }
 
@@ -121,14 +121,13 @@ public class LevelGenerator : EditorWindow {
             }
 
             string[] entries = line.Split(',');
-            if (entries.Length == 6) {
+            if (entries.Length == 5) {
                 TrialInfo info = new TrialInfo {
                     trialId = int.Parse(entries[0]),
-                    sceneId = int.Parse(entries[1]),
-                    perspectiveShift = float.Parse(entries[2]),
-                    relativeDirection = float.Parse(entries[3]),
-                    travelDistance = float.Parse(entries[4]),
-                    travelDirection = float.Parse(entries[5])
+                    perspectiveShift = float.Parse(entries[1]),
+                    relativeDirection = float.Parse(entries[2]),
+                    travelDistance = float.Parse(entries[3]),
+                    travelDirection = float.Parse(entries[4])
                 };
 
                 infos.Add(info);
