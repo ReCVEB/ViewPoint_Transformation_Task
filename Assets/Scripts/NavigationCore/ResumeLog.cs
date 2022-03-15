@@ -33,7 +33,7 @@ public class ResumeLog
         using (StreamReader streamReader = new StreamReader(fileName)){
             return JsonUtility.FromJson<TrialOrderInfo>(streamReader.ReadToEnd());
         }
-        return null;
+        //return null;
     }
 
 }

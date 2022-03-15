@@ -615,6 +615,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 400284076}
     m_Modifications:
+    - target: {fileID: 1691500106071238880, guid: bac5bd55aab1b1143b69f0c8eaa03541,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691500106071238880, guid: bac5bd55aab1b1143b69f0c8eaa03541,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.42
+      objectReference: {fileID: 0}
     - target: {fileID: 4540804208767763426, guid: bac5bd55aab1b1143b69f0c8eaa03541,
         type: 3}
       propertyPath: m_Name
@@ -1205,7 +1215,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh66580
+  m_Name: pb_Mesh53122
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1503,7 +1513,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: University of California, Santa Barbara (Feb 2022)
+  m_Text: UCSB & UCI (March 2022)
 --- !u!222 &947417791
 CanvasRenderer:
   m_ObjectHideFlags: 0

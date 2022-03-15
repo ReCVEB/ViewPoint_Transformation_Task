@@ -27,7 +27,7 @@ public class ArrivalCollisionCheck : MonoBehaviour {
     [SerializeField] bool debug = false;
 
     private GameObject target;
-    private GameObject user;
+    private GameObject origin;
     private bool triggered = false;
     private bool controllerTouching = false;
     private bool pinchClicked = false;
@@ -44,6 +44,7 @@ public class ArrivalCollisionCheck : MonoBehaviour {
         //}
 
         target = GameObject.FindGameObjectWithTag("Target");
+        origin = GameObject.FindGameObjectWithTag("UserPlane");
         //user = FindObjectOfType<CameraMarker>().gameObject;
 
         //event subscription from interaction manager
@@ -69,11 +70,12 @@ public class ArrivalCollisionCheck : MonoBehaviour {
                 }
                 Debug.Log(ArrivalPointName + " arrival triggered");
 
-                Vector3 user2dPos = logManager.PlayerTransform.position;
-                user2dPos.y=0;
-                Vector3 target2dPos = target.transform.position;
-                target2dPos.y=0;
-                var dist = Vector3.Distance(target2dPos,user2dPos);
+                Transform orig = origin.transform;
+                Vector3 target2dPos = orig.InverseTransformPoint(target.transform.position);
+                target2dPos.y = 0;
+                Vector3 player2dPos = logManager.PlayerTransform.position;
+                player2dPos.y = 0;
+                var dist = Vector3.Distance(target2dPos,player2dPos);
                 Debug.Log("Distance to Expected Destination: " + dist);
                 logManager.WriteCustomInfo("Distance to Expected Destination: " + dist);
                 if (dist <= CorrectThreshold)
@@ -83,6 +85,7 @@ public class ArrivalCollisionCheck : MonoBehaviour {
                 {
                     naviManager.CompleteMaze(false, ArrivalPointName);
                 }
+
                 triggered = true; //extra safe to make sure if doesn't accidentally trigger twice
             }
         }

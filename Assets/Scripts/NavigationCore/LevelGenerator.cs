@@ -8,7 +8,7 @@ using System.IO;
 using UnityEngine.UI;
 using System.Text.RegularExpressions;
 
-//Author: Carol He, 2022; Fredrick Jin;
+//Author: Carol He, 2022; Fredrick Jin, 2022;
 //For questions: carol.hcxy@gmail.com
 public class LevelGenerator : EditorWindow {
 
@@ -72,7 +72,7 @@ public class LevelGenerator : EditorWindow {
                     ArrivalCollisionCheck arrival = gameObject.AddComponent<ArrivalCollisionCheck>();
                     string trialEndName = "Level"+info.trialId.ToString();
                     arrival.ArrivalPointName = trialEndName;
-                    Debug.Log(arrival.ArrivalPointName);
+                    //Debug.Log(arrival.ArrivalPointName);
                     arrival.CorrectThreshold = 0.7f;
                 }
 
@@ -87,11 +87,11 @@ public class LevelGenerator : EditorWindow {
                     temp.y = info.travelDirection;
                     gameObject.transform.rotation = Quaternion.Euler(temp);
 
-                }
-                if(gameObject.tag == "Target"){
-                    Vector3 temp = gameObject.transform.position;
-                    temp.z = info.travelDistance;
-                    gameObject.transform.position = temp;
+                    GameObject targetObject = gameObject.transform.GetChild(0).gameObject;
+                    Vector3 tempTarget = targetObject.transform.localPosition;
+                    tempTarget.z = info.travelDistance;
+                    targetObject.transform.localPosition = tempTarget;
+                    //Debug.Log("Parent: "+ gameObject.transform.position.z.ToString()+"Child: "+targetObject.transform.localPosition.z.ToString());
                 }
             }
 
