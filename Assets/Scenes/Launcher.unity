@@ -1647,18 +1647,6 @@ MonoBehaviour:
   - {fileID: 2109791846}
   - {fileID: 2109791846}
   - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
-  - {fileID: 2109791846}
   ArrowAvatar: {fileID: 9104265146415103914}
   InstructionText: {fileID: 9104265147219776214}
   FootPrint: {fileID: 1830618184108977247}
@@ -14669,7 +14657,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
