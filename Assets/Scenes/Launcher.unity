@@ -1560,7 +1560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acb06c26588d184449dabf0fbdab9f37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeLimit: 40
+  TimeLimit: 90
   DisplayTime: 1
   TimeText: {fileID: 5445257037620838688}
 --- !u!114 &1016021715
@@ -1693,7 +1693,7 @@ MonoBehaviour:
   RightHand: {fileID: 4392687108547005629}
   LeftHand: {fileID: 4392687108457268009}
   ControllerConfirm: 1
-  Debug: 0
+  Debug: 1
 --- !u!114 &1016021721
 MonoBehaviour:
   m_ObjectHideFlags: 0
