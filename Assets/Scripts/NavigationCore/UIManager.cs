@@ -15,14 +15,14 @@ public class UIManager : MonoBehaviour {
     InteractionManager interactionManager;
 
     [Header("Input Fields")]
-	[Tooltip("Input field for participant name")]
-    [SerializeField]private InputField nameInput;
-    [Tooltip("Input field for participant gender")] 
-    [SerializeField]private InputField genderInput;
+	// [Tooltip("Input field for participant name")]
+    // [SerializeField]private InputField nameInput;
+    // [Tooltip("Input field for participant gender")] 
+    // [SerializeField]private InputField genderInput;
     [Tooltip("Input field for participant id")]
     [SerializeField]private InputField idInput;
-    [Tooltip("Input field for test date")]
-    [SerializeField]private InputField dateInput;
+    // [Tooltip("Input field for test date")]
+    // [SerializeField]private InputField dateInput;
     [Header("Launching UI Elements")]
     [Tooltip("Setup the UI elements to be turned off after selecting maze mode")]
     [SerializeField]private GameObject[] LaunchingUIElements;
@@ -54,7 +54,7 @@ public class UIManager : MonoBehaviour {
 	}
 	
 	public void ConfirmFileName(){
-        logManager.CreateFile(idInput.text, nameInput.text, dateInput.text, genderInput.text);
+        logManager.CreateFile(idInput.text);
     }
 	public void DeactivateInfoRect(){
         foreach (var obj in LaunchingUIElements)

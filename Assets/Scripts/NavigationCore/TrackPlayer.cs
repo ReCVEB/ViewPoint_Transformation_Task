@@ -21,20 +21,20 @@ public class TrackPlayer : MonoBehaviour
     public uint RecordInterval; // every N frames
 
     [Header("TXT Output")]
-    [Tooltip("If ON, a TXT file will be created with file name: Participant_ID_Name_Date.txt")]
+    [Tooltip("If ON, a TXT file will be created with file name: Participant_ID.txt")]
     [SerializeField] bool TXTOutput = true;
     StreamWriter streamWriter;
     [Header("CSV Output")]
-    [Tooltip("If ON, a CSV file will be created with file name: Participant_ID_Name_Date.csv")]
+    [Tooltip("If ON, a CSV file will be created with file name: Participant_ID.csv")]
     [SerializeField] bool CSVOutput = true;
     StreamWriter CSVWriter;
     [HideInInspector] public bool ShouldRecord = false; // called by other manager
     [HideInInspector] public string FILE_NAME = "default.txt"; //file name will be set by function call
     
     private int counter;
-    private string username;
-    private string gender;
-    private string date;
+    //private string username;
+    //private string gender;
+    //private string date;
     private string participantID;
 
     private List<string[]> rowData = new List<string[]>();
@@ -81,15 +81,15 @@ public class TrackPlayer : MonoBehaviour
                 streamWriter.WriteLine(Time.time + ": " + playerPos.x + "," + playerPos.z + "," + playerPos.y + "," + playerRot.eulerAngles.y);
             }
             //record in CSV format
-            string[] rowDataPose = new string[8];
+            string[] rowDataPose = new string[7];
             rowDataPose[0] = participantID;
-            rowDataPose[1] = gender;
-            rowDataPose[2] = (naviManager.CurrentLevel - 2).ToString();
-            rowDataPose[3] = Time.time.ToString();
-            rowDataPose[4] = playerPos.x.ToString();
-            rowDataPose[5] = playerPos.y.ToString();
-            rowDataPose[6] = playerPos.z.ToString();
-            rowDataPose[7] = playerRot.eulerAngles.y.ToString();
+            //rowDataPose[1] = gender;
+            rowDataPose[1] = (naviManager.CurrentLevel - 2).ToString();
+            rowDataPose[2] = Time.time.ToString();
+            rowDataPose[3] = playerPos.x.ToString();
+            rowDataPose[4] = playerPos.y.ToString();
+            rowDataPose[5] = playerPos.z.ToString();
+            rowDataPose[6] = playerRot.eulerAngles.y.ToString();
             rowData.Add(rowDataPose);
             WriteCSVData();
             // Debug.Log("sss");
@@ -103,25 +103,25 @@ public class TrackPlayer : MonoBehaviour
             streamWriter = File.AppendText(FILE_NAME + ".txt");
             streamWriter.AutoFlush = true;
             //write some meta info
-            streamWriter.WriteLine("Participant Name: " + username);
-            streamWriter.WriteLine("Participant Gender: " + gender);
+            //streamWriter.WriteLine("Participant Name: " + username);
+            //streamWriter.WriteLine("Participant Gender: " + gender);
             streamWriter.WriteLine("Participant ID: " + participantID);
-            streamWriter.WriteLine("Test Date: " + date);
+            //streamWriter.WriteLine("Test Date: " + date);
         }
         if (CSVOutput)
         {
             //create CSV file
             CSVWriter = File.AppendText(FILE_NAME + ".csv");
             CSVWriter.AutoFlush = true;
-            string[] rowDataPose = new string[8];
+            string[] rowDataPose = new string[7];
             rowDataPose[0] = "Participant ID";
-            rowDataPose[1] = "gender";
-            rowDataPose[2] = "Level";
-            rowDataPose[3] = "Time";
-            rowDataPose[4] = "PosX";
-            rowDataPose[5] = "PosY";
-            rowDataPose[6] = "PosZ";
-            rowDataPose[7] = "Facing Angle";
+            //rowDataPose[1] = "gender";
+            rowDataPose[1] = "Level";
+            rowDataPose[2] = "Time";
+            rowDataPose[3] = "PosX";
+            rowDataPose[4] = "PosY";
+            rowDataPose[5] = "PosZ";
+            rowDataPose[6] = "Facing Angle";
             rowData.Add(rowDataPose);
             WriteCSVData();
         }
@@ -266,15 +266,15 @@ public class TrackPlayer : MonoBehaviour
         counter = 0;
     }
 
-    public void CreateFile(string idInput, string nameInput, string dateInput, string genderInput)
+    public void CreateFile(string idInput)
     {
-        FILE_NAME = idInput + "_" + nameInput + "_" + dateInput;
-        username = nameInput;
-        gender = genderInput;
-        date = dateInput;
+        FILE_NAME = idInput;
+        //username = nameInput;
+        //gender = genderInput;
+        //date = dateInput;
         participantID = idInput;
         SetFileName();
-        string logMsg = "Data file created at /YourProjectFolder/ " + participantID + "_" + name + "_" + date;
+        string logMsg = "Data file created at /YourProjectFolder/ " + participantID;
         if (TXTOutput)
         {
             Debug.Log(logMsg + ".txt");

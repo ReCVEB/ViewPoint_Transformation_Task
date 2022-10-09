@@ -41,7 +41,7 @@ public class TimeManager : MonoBehaviour {
 		}
 	}
 	private void CountDown(){
-		TimeText.text = "Current Level = " + (naviManager.CurrentLevel - 2) + " | Time left: " + timeCount.ToString();
+		TimeText.text = "Current Level = " + (naviManager.CurrentLevel - 2) + "| Trials remaining: "+(naviManager.trialNumber-naviManager.levelPassed)+ " \n| Time left: " + timeCount.ToString();
 		if(timeCount > 0)
 		{
 			timeCount -= Time.deltaTime;
