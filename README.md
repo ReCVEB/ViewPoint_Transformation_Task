@@ -1,7 +1,7 @@
 # Viewpoint Transformation Task
 last update: 02/15/2022  
 beta version author: [Mengyu Chen](https://github.com/mengyuchen/BirdViewNavigation)  
-Updated version: Carol He (contact_info: c_he@ucsb.edu), Scott Matsubara, Rongfei Jin
+Updated version: Carol He (contact_info: carol.hcxy@gmail.com), Scott Matsubara, Rongfei Jin
 
 ## Background Info:
 This task needs to be run in an ambulatory virtual reality setting with at leat 7 by 7 meters physical open space. 
